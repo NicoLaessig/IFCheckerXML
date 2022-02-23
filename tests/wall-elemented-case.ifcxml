@@ -1,0 +1,1105 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ifcXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ifc="http://www.buildingsmart-tech.org/ifcXML/IFC4/Add2" xsi:schemaLocation="http://www.buildingsmart-tech.org/ifcXML/IFC4/Add2 https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD2/XML/IFC4_ADD2.xsd" id="uos_1" express="https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD2/EXPRESS/IFC4_ADD2.exp" xmlns="http://www.buildingsmart-tech.org/ifcXML/IFC4/Add2">
+  <header>
+    <name>D:\Uni\CODE\Validator\ifc_files\wall-elemented-case.ifc</name>
+    <time_stamp>2015-03-13T19:19:38</time_stamp>
+    <author />
+    <organization />
+    <preprocessor_version>Constructivity 0.9.8.2</preprocessor_version>
+    <originating_system>Constructivity 0.9.8.2</originating_system>
+    <documentation>ViewDefinition [notYetAssigned]</documentation>
+  </header>
+  <IfcProject id="i1" GlobalId="3jLKJe5mnDk9v_4zehUGXb" Name="Project">
+    <IsDecomposedBy>
+      <IfcRelAggregates id="i5" pos="0" GlobalId="0LpO_kYrr9RvWBWZZ1$J9y">
+        <RelatedObjects>
+          <IfcSite id="i44" pos="0" GlobalId="0$2MxjB$PAzwRPEqmXLEy9" Name="Site #1" CompositionType="element">
+            <ObjectPlacement id="i50" xsi:type="IfcLocalPlacement">
+              <RelativePlacement>
+                <IfcAxis2Placement3D id="i53">
+                  <Location id="i55" xsi:type="IfcCartesianPoint" Coordinates="0 0 0" />
+                </IfcAxis2Placement3D>
+              </RelativePlacement>
+            </ObjectPlacement>
+            <Representation id="i51" xsi:type="IfcProductDefinitionShape">
+              <Representations>
+                <IfcShapeRepresentation id="i54" pos="0" RepresentationIdentifier="FootPrint" RepresentationType="GeometricCurveSet">
+                  <ContextOfItems id="i2" xsi:type="IfcGeometricRepresentationContext" ContextIdentifier="3D" ContextType="Model" CoordinateSpaceDimension="3" Precision="1E-05">
+                    <WorldCoordinateSystem>
+                      <IfcAxis2Placement3D id="i7">
+                        <Location id="i18" xsi:type="IfcCartesianPoint" Coordinates="0 0 0" />
+                      </IfcAxis2Placement3D>
+                    </WorldCoordinateSystem>
+                  </ContextOfItems>
+                  <Items>
+                    <IfcGeometricCurveSet id="i56" pos="0">
+                      <Elements>
+                        <IfcPolyline id="i57" pos="0">
+                          <Points>
+                            <IfcCartesianPoint id="i58" pos="0" Coordinates="0 0" />
+                            <IfcCartesianPoint id="i59" pos="1" Coordinates="1536 0" />
+                            <IfcCartesianPoint id="i60" pos="2" Coordinates="1536 768" />
+                            <IfcCartesianPoint id="i61" pos="3" Coordinates="0 768" />
+                            <IfcCartesianPoint ref="i58" pos="4" xsi:nil="true" />
+                          </Points>
+                        </IfcPolyline>
+                      </Elements>
+                    </IfcGeometricCurveSet>
+                  </Items>
+                </IfcShapeRepresentation>
+              </Representations>
+            </Representation>
+            <ContainsElements>
+              <IfcRelContainedInSpatialStructure id="i52" pos="0" GlobalId="3GkTYDE011eOE5MPsYgvmO">
+                <RelatedElements>
+                  <IfcWall id="i123" pos="0" GlobalId="2ucZRLBGP4uxZW$9i1VAZ8" Name="Wall #1" PredefinedType="movable">
+                    <IsDecomposedBy>
+                      <IfcRelAggregates id="i156" pos="0" GlobalId="1fzLvTCX14ZPMFC2C3x$Zm">
+                        <RelatedObjects>
+                          <IfcBuildingElementPart id="i145" pos="0" GlobalId="1dhqqYR5v9EPzs7Ts1dOEX" Name="Panel Forward" PredefinedType="precastpanel">
+                            <IsTypedBy id="i97" xsi:type="IfcRelDefinesByType" GlobalId="3HMQ8jSxH4eP7NCIB0AfQK">
+                              <RelatingType id="i47" xsi:type="IfcBuildingElementPartType" GlobalId="3VCzyu65H0uBtwFTYyM$je" Name="Drywall" Tag="X" PredefinedType="precastpanel">
+                                <RepresentationMaps>
+                                  <IfcRepresentationMap id="i95" pos="0">
+                                    <MappingOrigin>
+                                      <IfcAxis2Placement3D id="i98">
+                                        <Location id="i100" xsi:type="IfcCartesianPoint" Coordinates="0 0 0" />
+                                      </IfcAxis2Placement3D>
+                                    </MappingOrigin>
+                                    <MappedRepresentation id="i99" xsi:type="IfcShapeRepresentation" RepresentationIdentifier="Body" RepresentationType="SweptSolid">
+                                      <ContextOfItems ref="i2" xsi:type="IfcGeometricRepresentationContext" xsi:nil="true" />
+                                      <Items>
+                                        <IfcExtrudedAreaSolid id="i101" pos="0" Depth="0.5">
+                                          <StyledByItem id="i105" xsi:type="IfcStyledItem">
+                                            <Styles>
+                                              <IfcSurfaceStyle id="i109" pos="0" Side="positive">
+                                                <Styles>
+                                                  <IfcSurfaceStyleRendering id="i110" pos="0" ReflectanceMethod="notdefined">
+                                                    <SurfaceColour id="i111" xsi:type="IfcColourRgb" Red="0.607843137254902" Green="0.733333333333333" Blue="0.349019607843137" />
+                                                  </IfcSurfaceStyleRendering>
+                                                </Styles>
+                                              </IfcSurfaceStyle>
+                                            </Styles>
+                                          </StyledByItem>
+                                          <SweptArea id="i102" xsi:type="IfcRectangleProfileDef" ProfileType="area" XDim="96" YDim="48" />
+                                          <Position id="i103" xsi:type="IfcAxis2Placement3D">
+                                            <Location id="i106" xsi:type="IfcCartesianPoint" Coordinates="48 24 0" />
+                                            <Axis id="i107" xsi:type="IfcDirection" DirectionRatios="0 0 1" />
+                                            <RefDirection id="i108" xsi:type="IfcDirection" DirectionRatios="1 0 0" />
+                                          </Position>
+                                          <ExtrudedDirection id="i104" xsi:type="IfcDirection" DirectionRatios="0 0 1" />
+                                        </IfcExtrudedAreaSolid>
+                                      </Items>
+                                    </MappedRepresentation>
+                                  </IfcRepresentationMap>
+                                </RepresentationMaps>
+                              </RelatingType>
+                            </IsTypedBy>
+                            <ObjectPlacement id="i358" xsi:type="IfcLocalPlacement">
+                              <PlacementRelTo id="i153" xsi:type="IfcLocalPlacement">
+                                <PlacementRelTo ref="i50" xsi:type="IfcLocalPlacement" xsi:nil="true" />
+                                <RelativePlacement>
+                                  <IfcAxis2Placement3D id="i159">
+                                    <Location id="i162" xsi:type="IfcCartesianPoint" Coordinates="48 48 0" />
+                                    <Axis id="i163" xsi:type="IfcDirection" DirectionRatios="0 0 1" />
+                                    <RefDirection id="i164" xsi:type="IfcDirection" DirectionRatios="1 0 0" />
+                                  </IfcAxis2Placement3D>
+                                </RelativePlacement>
+                              </PlacementRelTo>
+                              <RelativePlacement>
+                                <IfcAxis2Placement3D id="i360">
+                                  <Location id="i362" xsi:type="IfcCartesianPoint" Coordinates="0 0 0" />
+                                  <Axis id="i363" xsi:type="IfcDirection" DirectionRatios="0 -1 0" />
+                                  <RefDirection id="i364" xsi:type="IfcDirection" DirectionRatios="1 0 0" />
+                                </IfcAxis2Placement3D>
+                              </RelativePlacement>
+                            </ObjectPlacement>
+                            <Representation id="i359" xsi:type="IfcProductDefinitionShape">
+                              <Representations>
+                                <IfcShapeRepresentation id="i361" pos="0" RepresentationIdentifier="Body" RepresentationType="MappedRepresentation">
+                                  <ContextOfItems ref="i2" xsi:type="IfcGeometricRepresentationContext" xsi:nil="true" />
+                                  <Items>
+                                    <IfcMappedItem id="i365" pos="0">
+                                      <MappingSource ref="i95" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                      <MappingTarget id="i371" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.25" Scale2="2.5" Scale3="1">
+                                        <LocalOrigin id="i377" xsi:type="IfcCartesianPoint" Coordinates="0 0 -0.5" />
+                                      </MappingTarget>
+                                    </IfcMappedItem>
+                                    <IfcMappedItem id="i366" pos="1">
+                                      <MappingSource ref="i95" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                      <MappingTarget id="i372" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.333333333333333" Scale2="0.833333333333333" Scale3="1">
+                                        <LocalOrigin id="i378" xsi:type="IfcCartesianPoint" Coordinates="24 80 -0.5" />
+                                      </MappingTarget>
+                                    </IfcMappedItem>
+                                    <IfcMappedItem id="i367" pos="2">
+                                      <MappingSource ref="i95" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                      <MappingTarget id="i373" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.291666666666667" Scale2="2.5" Scale3="1">
+                                        <LocalOrigin id="i379" xsi:type="IfcCartesianPoint" Coordinates="56 0 -0.5" />
+                                      </MappingTarget>
+                                    </IfcMappedItem>
+                                    <IfcMappedItem id="i368" pos="3">
+                                      <MappingSource ref="i95" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                      <MappingTarget id="i374" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.375" Scale2="0.666666666666667" Scale3="1">
+                                        <LocalOrigin id="i380" xsi:type="IfcCartesianPoint" Coordinates="84 0 -0.5" />
+                                      </MappingTarget>
+                                    </IfcMappedItem>
+                                    <IfcMappedItem id="i369" pos="4">
+                                      <MappingSource ref="i95" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                      <MappingTarget id="i375" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.375" Scale2="0.833333333333333" Scale3="1">
+                                        <LocalOrigin id="i381" xsi:type="IfcCartesianPoint" Coordinates="84 80 -0.5" />
+                                      </MappingTarget>
+                                    </IfcMappedItem>
+                                    <IfcMappedItem id="i370" pos="5">
+                                      <MappingSource ref="i95" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                      <MappingTarget id="i376" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.25" Scale2="2.5" Scale3="1">
+                                        <LocalOrigin id="i382" xsi:type="IfcCartesianPoint" Coordinates="120 0 -0.5" />
+                                      </MappingTarget>
+                                    </IfcMappedItem>
+                                  </Items>
+                                </IfcShapeRepresentation>
+                              </Representations>
+                            </Representation>
+                          </IfcBuildingElementPart>
+                          <IfcElementAssembly id="i148" pos="1" GlobalId="0tQt_zoibF6gdoecLxBvHT" Name="Frame" PredefinedType="braced_frame">
+                            <IsDecomposedBy>
+                              <IfcRelAggregates id="i185" pos="0" GlobalId="0BLnMzOcT8GOmdBBx7N4h2">
+                                <RelatedObjects>
+                                  <IfcMember id="i130" pos="0" GlobalId="3E4igxyD1F5w4vj3LTAREz" Name="Track" PredefinedType="plate">
+                                    <IsTypedBy id="i64" xsi:type="IfcRelDefinesByType" GlobalId="0Rs3H_63TAwQ71vL6XMwkm">
+                                      <RelatingType id="i45" xsi:type="IfcMemberType" GlobalId="0fLvCK5n50nxLpZkG$JUuI" Name="Wood Track" Tag="2x4" PredefinedType="plate">
+                                        <RepresentationMaps>
+                                          <IfcRepresentationMap id="i62" pos="0">
+                                            <MappingOrigin>
+                                              <IfcAxis2Placement3D id="i65">
+                                                <Location id="i67" xsi:type="IfcCartesianPoint" Coordinates="0 0 0" />
+                                              </IfcAxis2Placement3D>
+                                            </MappingOrigin>
+                                            <MappedRepresentation id="i66" xsi:type="IfcShapeRepresentation" RepresentationIdentifier="Body" RepresentationType="SweptSolid">
+                                              <ContextOfItems ref="i2" xsi:type="IfcGeometricRepresentationContext" xsi:nil="true" />
+                                              <Items>
+                                                <IfcExtrudedAreaSolid id="i68" pos="0" Depth="96">
+                                                  <StyledByItem id="i72" xsi:type="IfcStyledItem">
+                                                    <Styles>
+                                                      <IfcSurfaceStyle id="i76" pos="0" Side="positive">
+                                                        <Styles>
+                                                          <IfcSurfaceStyleRendering id="i77" pos="0" ReflectanceMethod="notdefined">
+                                                            <SurfaceColour id="i78" xsi:type="IfcColourRgb" Red="1" Green="0.752941176470588" Blue="0" />
+                                                          </IfcSurfaceStyleRendering>
+                                                        </Styles>
+                                                      </IfcSurfaceStyle>
+                                                    </Styles>
+                                                  </StyledByItem>
+                                                  <SweptArea id="i69" xsi:type="IfcRectangleProfileDef" ProfileType="area" XDim="1.5" YDim="3.5" />
+                                                  <Position id="i70" xsi:type="IfcAxis2Placement3D">
+                                                    <Location id="i73" xsi:type="IfcCartesianPoint" Coordinates="0 0 0" />
+                                                    <Axis id="i74" xsi:type="IfcDirection" DirectionRatios="1 0 0" />
+                                                    <RefDirection id="i75" xsi:type="IfcDirection" DirectionRatios="0 1 0" />
+                                                  </Position>
+                                                  <ExtrudedDirection id="i71" xsi:type="IfcDirection" DirectionRatios="0 0 1" />
+                                                </IfcExtrudedAreaSolid>
+                                              </Items>
+                                            </MappedRepresentation>
+                                          </IfcRepresentationMap>
+                                        </RepresentationMaps>
+                                      </RelatingType>
+                                    </IsTypedBy>
+                                    <ObjectPlacement id="i182" xsi:type="IfcLocalPlacement">
+                                      <PlacementRelTo id="i186" xsi:type="IfcLocalPlacement">
+                                        <PlacementRelTo ref="i153" xsi:type="IfcLocalPlacement" xsi:nil="true" />
+                                        <RelativePlacement>
+                                          <IfcAxis2Placement3D id="i189">
+                                            <Location id="i203" xsi:type="IfcCartesianPoint" Coordinates="0 0.5 0" />
+                                            <Axis id="i204" xsi:type="IfcDirection" DirectionRatios="0 -1 0" />
+                                            <RefDirection id="i205" xsi:type="IfcDirection" DirectionRatios="1 0 0" />
+                                          </IfcAxis2Placement3D>
+                                        </RelativePlacement>
+                                      </PlacementRelTo>
+                                      <RelativePlacement>
+                                        <IfcAxis2Placement3D id="i187">
+                                          <Location id="i190" xsi:type="IfcCartesianPoint" Coordinates="0 0 0" />
+                                        </IfcAxis2Placement3D>
+                                      </RelativePlacement>
+                                    </ObjectPlacement>
+                                    <Representation id="i183" xsi:type="IfcProductDefinitionShape">
+                                      <Representations>
+                                        <IfcShapeRepresentation id="i188" pos="0" RepresentationIdentifier="Body" RepresentationType="MappedRepresentation">
+                                          <ContextOfItems ref="i2" xsi:type="IfcGeometricRepresentationContext" xsi:nil="true" />
+                                          <Items>
+                                            <IfcMappedItem id="i191" pos="0">
+                                              <MappingSource ref="i62" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i206" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.25" Scale2="1" Scale3="1">
+                                                <LocalOrigin id="i218" xsi:type="IfcCartesianPoint" Coordinates="0 0.75 -1.75" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                            <IfcMappedItem id="i192" pos="1">
+                                              <MappingSource ref="i62" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i207" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.25" Scale2="1" Scale3="1">
+                                                <LocalOrigin id="i219" xsi:type="IfcCartesianPoint" Coordinates="0 119.25 -1.75" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                            <IfcMappedItem id="i193" pos="2">
+                                              <MappingSource ref="i62" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i208" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.333333333333333" Scale2="1" Scale3="1">
+                                                <LocalOrigin id="i220" xsi:type="IfcCartesianPoint" Coordinates="24 80.75 -1.75" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                            <IfcMappedItem id="i194" pos="3">
+                                              <MappingSource ref="i62" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i209" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.333333333333333" Scale2="1" Scale3="1">
+                                                <LocalOrigin id="i221" xsi:type="IfcCartesianPoint" Coordinates="24 119.25 -1.75" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                            <IfcMappedItem id="i195" pos="4">
+                                              <MappingSource ref="i62" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i210" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.291666666666667" Scale2="1" Scale3="1">
+                                                <LocalOrigin id="i222" xsi:type="IfcCartesianPoint" Coordinates="56 0.75 -1.75" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                            <IfcMappedItem id="i196" pos="5">
+                                              <MappingSource ref="i62" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i211" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.291666666666667" Scale2="1" Scale3="1">
+                                                <LocalOrigin id="i223" xsi:type="IfcCartesianPoint" Coordinates="56 119.25 -1.75" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                            <IfcMappedItem id="i197" pos="6">
+                                              <MappingSource ref="i62" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i212" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.375" Scale2="1" Scale3="1">
+                                                <LocalOrigin id="i224" xsi:type="IfcCartesianPoint" Coordinates="84 0.75 -1.75" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                            <IfcMappedItem id="i198" pos="7">
+                                              <MappingSource ref="i62" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i213" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.375" Scale2="1" Scale3="1">
+                                                <LocalOrigin id="i225" xsi:type="IfcCartesianPoint" Coordinates="84 31.25 -1.75" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                            <IfcMappedItem id="i199" pos="8">
+                                              <MappingSource ref="i62" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i214" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.375" Scale2="1" Scale3="1">
+                                                <LocalOrigin id="i226" xsi:type="IfcCartesianPoint" Coordinates="84 80.75 -1.75" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                            <IfcMappedItem id="i200" pos="9">
+                                              <MappingSource ref="i62" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i215" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.375" Scale2="1" Scale3="1">
+                                                <LocalOrigin id="i227" xsi:type="IfcCartesianPoint" Coordinates="84 119.25 -1.75" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                            <IfcMappedItem id="i201" pos="10">
+                                              <MappingSource ref="i62" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i216" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.25" Scale2="1" Scale3="1">
+                                                <LocalOrigin id="i228" xsi:type="IfcCartesianPoint" Coordinates="120 0.75 -1.75" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                            <IfcMappedItem id="i202" pos="11">
+                                              <MappingSource ref="i62" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i217" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.25" Scale2="1" Scale3="1">
+                                                <LocalOrigin id="i229" xsi:type="IfcCartesianPoint" Coordinates="120 119.25 -1.75" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                          </Items>
+                                        </IfcShapeRepresentation>
+                                      </Representations>
+                                    </Representation>
+                                  </IfcMember>
+                                  <IfcMember id="i133" pos="1" GlobalId="0y81T5OQ921PKefugNkz2z" Name="Studs" PredefinedType="stud">
+                                    <IsTypedBy id="i80" xsi:type="IfcRelDefinesByType" GlobalId="23JxxxCaP1D9_Yke1YqK_4">
+                                      <RelatingType id="i46" xsi:type="IfcMemberType" GlobalId="0ZAqUxV0P3hQFszDlG2CZT" Name="Wood Stud" Tag="2x4" PredefinedType="stud">
+                                        <RepresentationMaps>
+                                          <IfcRepresentationMap id="i79" pos="0">
+                                            <MappingOrigin>
+                                              <IfcAxis2Placement3D id="i81">
+                                                <Location id="i83" xsi:type="IfcCartesianPoint" Coordinates="0 0 0" />
+                                              </IfcAxis2Placement3D>
+                                            </MappingOrigin>
+                                            <MappedRepresentation id="i82" xsi:type="IfcShapeRepresentation" RepresentationIdentifier="Body" RepresentationType="SweptSolid">
+                                              <ContextOfItems ref="i2" xsi:type="IfcGeometricRepresentationContext" xsi:nil="true" />
+                                              <Items>
+                                                <IfcExtrudedAreaSolid id="i84" pos="0" Depth="92.5">
+                                                  <StyledByItem id="i88" xsi:type="IfcStyledItem">
+                                                    <Styles>
+                                                      <IfcSurfaceStyle id="i92" pos="0" Side="positive">
+                                                        <Styles>
+                                                          <IfcSurfaceStyleRendering id="i93" pos="0" ReflectanceMethod="notdefined">
+                                                            <SurfaceColour id="i94" xsi:type="IfcColourRgb" Red="1" Green="0.752941176470588" Blue="0" />
+                                                          </IfcSurfaceStyleRendering>
+                                                        </Styles>
+                                                      </IfcSurfaceStyle>
+                                                    </Styles>
+                                                  </StyledByItem>
+                                                  <SweptArea id="i85" xsi:type="IfcRectangleProfileDef" ProfileType="area" XDim="1.5" YDim="3.5" />
+                                                  <Position id="i86" xsi:type="IfcAxis2Placement3D">
+                                                    <Location id="i89" xsi:type="IfcCartesianPoint" Coordinates="0 0 0" />
+                                                    <Axis id="i90" xsi:type="IfcDirection" DirectionRatios="1 0 0" />
+                                                    <RefDirection id="i91" xsi:type="IfcDirection" DirectionRatios="0 1 0" />
+                                                  </Position>
+                                                  <ExtrudedDirection id="i87" xsi:type="IfcDirection" DirectionRatios="0 0 1" />
+                                                </IfcExtrudedAreaSolid>
+                                              </Items>
+                                            </MappedRepresentation>
+                                          </IfcRepresentationMap>
+                                        </RepresentationMaps>
+                                      </RelatingType>
+                                    </IsTypedBy>
+                                    <ObjectPlacement id="i232" xsi:type="IfcLocalPlacement">
+                                      <PlacementRelTo ref="i186" xsi:type="IfcLocalPlacement" xsi:nil="true" />
+                                      <RelativePlacement>
+                                        <IfcAxis2Placement3D id="i235">
+                                          <Location id="i237" xsi:type="IfcCartesianPoint" Coordinates="0 0 0" />
+                                        </IfcAxis2Placement3D>
+                                      </RelativePlacement>
+                                    </ObjectPlacement>
+                                    <Representation id="i233" xsi:type="IfcProductDefinitionShape">
+                                      <Representations>
+                                        <IfcShapeRepresentation id="i236" pos="0" RepresentationIdentifier="Body" RepresentationType="MappedRepresentation">
+                                          <ContextOfItems ref="i2" xsi:type="IfcGeometricRepresentationContext" xsi:nil="true" />
+                                          <Items>
+                                            <IfcMappedItem id="i238" pos="0">
+                                              <MappingSource ref="i79" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i258" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="1.26486486486486" Scale2="1" Scale3="1">
+                                                <Axis1 id="i278" xsi:type="IfcDirection" DirectionRatios="0 1 0" />
+                                                <Axis2 id="i279" xsi:type="IfcDirection" DirectionRatios="1 0 0" />
+                                                <LocalOrigin id="i280" xsi:type="IfcCartesianPoint" Coordinates="0.75 1.5 -1.75" />
+                                                <Axis3 id="i281" xsi:type="IfcDirection" DirectionRatios="0 0 1" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                            <IfcMappedItem id="i239" pos="1">
+                                              <MappingSource ref="i79" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i259" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="1.26486486486486" Scale2="1" Scale3="1">
+                                                <Axis1 id="i282" xsi:type="IfcDirection" DirectionRatios="0 1 0" />
+                                                <Axis2 id="i283" xsi:type="IfcDirection" DirectionRatios="1 0 0" />
+                                                <LocalOrigin id="i284" xsi:type="IfcCartesianPoint" Coordinates="16.75 1.5 -1.75" />
+                                                <Axis3 id="i285" xsi:type="IfcDirection" DirectionRatios="0 0 1" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                            <IfcMappedItem id="i240" pos="2">
+                                              <MappingSource ref="i79" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i260" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="1.26486486486486" Scale2="1" Scale3="1">
+                                                <Axis1 id="i286" xsi:type="IfcDirection" DirectionRatios="0 1 0" />
+                                                <Axis2 id="i287" xsi:type="IfcDirection" DirectionRatios="1 0 0" />
+                                                <LocalOrigin id="i288" xsi:type="IfcCartesianPoint" Coordinates="23.25 1.5 -1.75" />
+                                                <Axis3 id="i289" xsi:type="IfcDirection" DirectionRatios="0 0 1" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                            <IfcMappedItem id="i241" pos="3">
+                                              <MappingSource ref="i79" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i261" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.4" Scale2="1" Scale3="1">
+                                                <Axis1 id="i290" xsi:type="IfcDirection" DirectionRatios="0 1 0" />
+                                                <Axis2 id="i291" xsi:type="IfcDirection" DirectionRatios="1 0 0" />
+                                                <LocalOrigin id="i292" xsi:type="IfcCartesianPoint" Coordinates="24.75 81.5 -1.75" />
+                                                <Axis3 id="i293" xsi:type="IfcDirection" DirectionRatios="0 0 1" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                            <IfcMappedItem id="i242" pos="4">
+                                              <MappingSource ref="i79" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i262" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.4" Scale2="1" Scale3="1">
+                                                <Axis1 id="i294" xsi:type="IfcDirection" DirectionRatios="0 1 0" />
+                                                <Axis2 id="i295" xsi:type="IfcDirection" DirectionRatios="1 0 0" />
+                                                <LocalOrigin id="i296" xsi:type="IfcCartesianPoint" Coordinates="40.75 81.5 -1.75" />
+                                                <Axis3 id="i297" xsi:type="IfcDirection" DirectionRatios="0 0 1" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                            <IfcMappedItem id="i243" pos="5">
+                                              <MappingSource ref="i79" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i263" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.4" Scale2="1" Scale3="1">
+                                                <Axis1 id="i298" xsi:type="IfcDirection" DirectionRatios="0 1 0" />
+                                                <Axis2 id="i299" xsi:type="IfcDirection" DirectionRatios="1 0 0" />
+                                                <LocalOrigin id="i300" xsi:type="IfcCartesianPoint" Coordinates="55.25 81.5 -1.75" />
+                                                <Axis3 id="i301" xsi:type="IfcDirection" DirectionRatios="0 0 1" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                            <IfcMappedItem id="i244" pos="6">
+                                              <MappingSource ref="i79" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i264" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="1.26486486486486" Scale2="1" Scale3="1">
+                                                <Axis1 id="i302" xsi:type="IfcDirection" DirectionRatios="0 1 0" />
+                                                <Axis2 id="i303" xsi:type="IfcDirection" DirectionRatios="1 0 0" />
+                                                <LocalOrigin id="i304" xsi:type="IfcCartesianPoint" Coordinates="56.75 1.5 -1.75" />
+                                                <Axis3 id="i305" xsi:type="IfcDirection" DirectionRatios="0 0 1" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                            <IfcMappedItem id="i245" pos="7">
+                                              <MappingSource ref="i79" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i265" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="1.26486486486486" Scale2="1" Scale3="1">
+                                                <Axis1 id="i306" xsi:type="IfcDirection" DirectionRatios="0 1 0" />
+                                                <Axis2 id="i307" xsi:type="IfcDirection" DirectionRatios="1 0 0" />
+                                                <LocalOrigin id="i308" xsi:type="IfcCartesianPoint" Coordinates="72.75 1.5 -1.75" />
+                                                <Axis3 id="i309" xsi:type="IfcDirection" DirectionRatios="0 0 1" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                            <IfcMappedItem id="i246" pos="8">
+                                              <MappingSource ref="i79" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i266" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="1.26486486486486" Scale2="1" Scale3="1">
+                                                <Axis1 id="i310" xsi:type="IfcDirection" DirectionRatios="0 1 0" />
+                                                <Axis2 id="i311" xsi:type="IfcDirection" DirectionRatios="1 0 0" />
+                                                <LocalOrigin id="i312" xsi:type="IfcCartesianPoint" Coordinates="83.25 1.5 -1.75" />
+                                                <Axis3 id="i313" xsi:type="IfcDirection" DirectionRatios="0 0 1" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                            <IfcMappedItem id="i247" pos="9">
+                                              <MappingSource ref="i79" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i267" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.313513513513514" Scale2="1" Scale3="1">
+                                                <Axis1 id="i314" xsi:type="IfcDirection" DirectionRatios="0 1 0" />
+                                                <Axis2 id="i315" xsi:type="IfcDirection" DirectionRatios="1 0 0" />
+                                                <LocalOrigin id="i316" xsi:type="IfcCartesianPoint" Coordinates="84.75 1.5 -1.75" />
+                                                <Axis3 id="i317" xsi:type="IfcDirection" DirectionRatios="0 0 1" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                            <IfcMappedItem id="i248" pos="10">
+                                              <MappingSource ref="i79" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i268" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.313513513513514" Scale2="1" Scale3="1">
+                                                <Axis1 id="i318" xsi:type="IfcDirection" DirectionRatios="0 1 0" />
+                                                <Axis2 id="i319" xsi:type="IfcDirection" DirectionRatios="1 0 0" />
+                                                <LocalOrigin id="i320" xsi:type="IfcCartesianPoint" Coordinates="100.75 1.5 -1.75" />
+                                                <Axis3 id="i321" xsi:type="IfcDirection" DirectionRatios="0 0 1" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                            <IfcMappedItem id="i249" pos="11">
+                                              <MappingSource ref="i79" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i269" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.313513513513514" Scale2="1" Scale3="1">
+                                                <Axis1 id="i322" xsi:type="IfcDirection" DirectionRatios="0 1 0" />
+                                                <Axis2 id="i323" xsi:type="IfcDirection" DirectionRatios="1 0 0" />
+                                                <LocalOrigin id="i324" xsi:type="IfcCartesianPoint" Coordinates="116.75 1.5 -1.75" />
+                                                <Axis3 id="i325" xsi:type="IfcDirection" DirectionRatios="0 0 1" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                            <IfcMappedItem id="i250" pos="12">
+                                              <MappingSource ref="i79" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i270" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.313513513513514" Scale2="1" Scale3="1">
+                                                <Axis1 id="i326" xsi:type="IfcDirection" DirectionRatios="0 1 0" />
+                                                <Axis2 id="i327" xsi:type="IfcDirection" DirectionRatios="1 0 0" />
+                                                <LocalOrigin id="i328" xsi:type="IfcCartesianPoint" Coordinates="119.25 1.5 -1.75" />
+                                                <Axis3 id="i329" xsi:type="IfcDirection" DirectionRatios="0 0 1" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                            <IfcMappedItem id="i251" pos="13">
+                                              <MappingSource ref="i79" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i271" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.4" Scale2="1" Scale3="1">
+                                                <Axis1 id="i330" xsi:type="IfcDirection" DirectionRatios="0 1 0" />
+                                                <Axis2 id="i331" xsi:type="IfcDirection" DirectionRatios="1 0 0" />
+                                                <LocalOrigin id="i332" xsi:type="IfcCartesianPoint" Coordinates="84.75 81.5 -1.75" />
+                                                <Axis3 id="i333" xsi:type="IfcDirection" DirectionRatios="0 0 1" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                            <IfcMappedItem id="i252" pos="14">
+                                              <MappingSource ref="i79" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i272" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.4" Scale2="1" Scale3="1">
+                                                <Axis1 id="i334" xsi:type="IfcDirection" DirectionRatios="0 1 0" />
+                                                <Axis2 id="i335" xsi:type="IfcDirection" DirectionRatios="1 0 0" />
+                                                <LocalOrigin id="i336" xsi:type="IfcCartesianPoint" Coordinates="100.75 81.5 -1.75" />
+                                                <Axis3 id="i337" xsi:type="IfcDirection" DirectionRatios="0 0 1" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                            <IfcMappedItem id="i253" pos="15">
+                                              <MappingSource ref="i79" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i273" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.4" Scale2="1" Scale3="1">
+                                                <Axis1 id="i338" xsi:type="IfcDirection" DirectionRatios="0 1 0" />
+                                                <Axis2 id="i339" xsi:type="IfcDirection" DirectionRatios="1 0 0" />
+                                                <LocalOrigin id="i340" xsi:type="IfcCartesianPoint" Coordinates="116.75 81.5 -1.75" />
+                                                <Axis3 id="i341" xsi:type="IfcDirection" DirectionRatios="0 0 1" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                            <IfcMappedItem id="i254" pos="16">
+                                              <MappingSource ref="i79" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i274" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.4" Scale2="1" Scale3="1">
+                                                <Axis1 id="i342" xsi:type="IfcDirection" DirectionRatios="0 1 0" />
+                                                <Axis2 id="i343" xsi:type="IfcDirection" DirectionRatios="1 0 0" />
+                                                <LocalOrigin id="i344" xsi:type="IfcCartesianPoint" Coordinates="119.25 81.5 -1.75" />
+                                                <Axis3 id="i345" xsi:type="IfcDirection" DirectionRatios="0 0 1" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                            <IfcMappedItem id="i255" pos="17">
+                                              <MappingSource ref="i79" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i275" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="1.26486486486486" Scale2="1" Scale3="1">
+                                                <Axis1 id="i346" xsi:type="IfcDirection" DirectionRatios="0 1 0" />
+                                                <Axis2 id="i347" xsi:type="IfcDirection" DirectionRatios="1 0 0" />
+                                                <LocalOrigin id="i348" xsi:type="IfcCartesianPoint" Coordinates="120.75 1.5 -1.75" />
+                                                <Axis3 id="i349" xsi:type="IfcDirection" DirectionRatios="0 0 1" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                            <IfcMappedItem id="i256" pos="18">
+                                              <MappingSource ref="i79" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i276" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="1.26486486486486" Scale2="1" Scale3="1">
+                                                <Axis1 id="i350" xsi:type="IfcDirection" DirectionRatios="0 1 0" />
+                                                <Axis2 id="i351" xsi:type="IfcDirection" DirectionRatios="1 0 0" />
+                                                <LocalOrigin id="i352" xsi:type="IfcCartesianPoint" Coordinates="136.75 1.5 -1.75" />
+                                                <Axis3 id="i353" xsi:type="IfcDirection" DirectionRatios="0 0 1" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                            <IfcMappedItem id="i257" pos="19">
+                                              <MappingSource ref="i79" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                              <MappingTarget id="i277" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="1.26486486486486" Scale2="1" Scale3="1">
+                                                <Axis1 id="i354" xsi:type="IfcDirection" DirectionRatios="0 1 0" />
+                                                <Axis2 id="i355" xsi:type="IfcDirection" DirectionRatios="1 0 0" />
+                                                <LocalOrigin id="i356" xsi:type="IfcCartesianPoint" Coordinates="143.25 1.5 -1.75" />
+                                                <Axis3 id="i357" xsi:type="IfcDirection" DirectionRatios="0 0 1" />
+                                              </MappingTarget>
+                                            </IfcMappedItem>
+                                          </Items>
+                                        </IfcShapeRepresentation>
+                                      </Representations>
+                                    </Representation>
+                                  </IfcMember>
+                                </RelatedObjects>
+                              </IfcRelAggregates>
+                            </IsDecomposedBy>
+                            <IsTypedBy id="i114" xsi:type="IfcRelDefinesByType" GlobalId="1wrfQZgun13R0AuyIGNDE5">
+                              <RelatingType id="i48" xsi:type="IfcElementAssemblyType" GlobalId="3LWWZQqmn4RO3Pvh2yNsE3" Name="Wood Stud Frame" PredefinedType="notdefined">
+                                <IsDecomposedBy>
+                                  <IfcRelAggregates id="i113" pos="0" GlobalId="2__AVJ3MH9OvTHd22TysYH">
+                                    <RelatedObjects>
+                                      <IfcMember id="i128" pos="0" GlobalId="0a_4mEHnHCmQlwrbwchCWn" Name="Track" PredefinedType="plate">
+                                        <IsTypedBy ref="i64" xsi:type="IfcRelDefinesByType" xsi:nil="true" />
+                                      </IfcMember>
+                                      <IfcMember id="i131" pos="1" GlobalId="0EbognDS18svu9I3VRH00k" Name="Studs" PredefinedType="stud">
+                                        <IsTypedBy ref="i80" xsi:type="IfcRelDefinesByType" xsi:nil="true" />
+                                      </IfcMember>
+                                    </RelatedObjects>
+                                  </IfcRelAggregates>
+                                </IsDecomposedBy>
+                              </RelatingType>
+                            </IsTypedBy>
+                            <ObjectPlacement ref="i186" xsi:type="IfcLocalPlacement" xsi:nil="true" />
+                          </IfcElementAssembly>
+                          <IfcBuildingElementPart id="i146" pos="2" GlobalId="3dca$PAJT1XA6b06dQW26g" Name="Panel Reverse" PredefinedType="precastpanel">
+                            <IsTypedBy ref="i97" xsi:type="IfcRelDefinesByType" xsi:nil="true" />
+                            <ObjectPlacement id="i383" xsi:type="IfcLocalPlacement">
+                              <PlacementRelTo ref="i153" xsi:type="IfcLocalPlacement" xsi:nil="true" />
+                              <RelativePlacement>
+                                <IfcAxis2Placement3D id="i385">
+                                  <Location id="i387" xsi:type="IfcCartesianPoint" Coordinates="0 4 0" />
+                                  <Axis id="i388" xsi:type="IfcDirection" DirectionRatios="0 -1 0" />
+                                  <RefDirection id="i389" xsi:type="IfcDirection" DirectionRatios="1 0 0" />
+                                </IfcAxis2Placement3D>
+                              </RelativePlacement>
+                            </ObjectPlacement>
+                            <Representation id="i384" xsi:type="IfcProductDefinitionShape">
+                              <Representations>
+                                <IfcShapeRepresentation id="i386" pos="0" RepresentationIdentifier="Body" RepresentationType="MappedRepresentation">
+                                  <ContextOfItems ref="i2" xsi:type="IfcGeometricRepresentationContext" xsi:nil="true" />
+                                  <Items>
+                                    <IfcMappedItem id="i390" pos="0">
+                                      <MappingSource ref="i95" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                      <MappingTarget id="i396" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.25" Scale2="2.5" Scale3="1">
+                                        <LocalOrigin id="i402" xsi:type="IfcCartesianPoint" Coordinates="0 0 -0.5" />
+                                      </MappingTarget>
+                                    </IfcMappedItem>
+                                    <IfcMappedItem id="i391" pos="1">
+                                      <MappingSource ref="i95" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                      <MappingTarget id="i397" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.333333333333333" Scale2="0.833333333333333" Scale3="1">
+                                        <LocalOrigin id="i403" xsi:type="IfcCartesianPoint" Coordinates="24 80 -0.5" />
+                                      </MappingTarget>
+                                    </IfcMappedItem>
+                                    <IfcMappedItem id="i392" pos="2">
+                                      <MappingSource ref="i95" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                      <MappingTarget id="i398" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.291666666666667" Scale2="2.5" Scale3="1">
+                                        <LocalOrigin id="i404" xsi:type="IfcCartesianPoint" Coordinates="56 0 -0.5" />
+                                      </MappingTarget>
+                                    </IfcMappedItem>
+                                    <IfcMappedItem id="i393" pos="3">
+                                      <MappingSource ref="i95" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                      <MappingTarget id="i399" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.375" Scale2="0.666666666666667" Scale3="1">
+                                        <LocalOrigin id="i405" xsi:type="IfcCartesianPoint" Coordinates="84 0 -0.5" />
+                                      </MappingTarget>
+                                    </IfcMappedItem>
+                                    <IfcMappedItem id="i394" pos="4">
+                                      <MappingSource ref="i95" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                      <MappingTarget id="i400" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.375" Scale2="0.833333333333333" Scale3="1">
+                                        <LocalOrigin id="i406" xsi:type="IfcCartesianPoint" Coordinates="84 80 -0.5" />
+                                      </MappingTarget>
+                                    </IfcMappedItem>
+                                    <IfcMappedItem id="i395" pos="5">
+                                      <MappingSource ref="i95" xsi:type="IfcRepresentationMap" xsi:nil="true" />
+                                      <MappingTarget id="i401" xsi:type="IfcCartesianTransformationOperator3DnonUniform" Scale="0.25" Scale2="2.5" Scale3="1">
+                                        <LocalOrigin id="i407" xsi:type="IfcCartesianPoint" Coordinates="120 0 -0.5" />
+                                      </MappingTarget>
+                                    </IfcMappedItem>
+                                  </Items>
+                                </IfcShapeRepresentation>
+                              </Representations>
+                            </Representation>
+                          </IfcBuildingElementPart>
+                        </RelatedObjects>
+                      </IfcRelAggregates>
+                    </IsDecomposedBy>
+                    <IsTypedBy id="i122" xsi:type="IfcRelDefinesByType" GlobalId="0b7wBKEN98nvtgUGavkVDu">
+                      <RelatingType id="i49" xsi:type="IfcWallType" GlobalId="18dyITGxr8vvBzWasHOIhB" Name="Wood Framed Wall" PredefinedType="notdefined">
+                        <IsDecomposedBy>
+                          <IfcRelAggregates id="i121" pos="0" GlobalId="3E6JijosnAOwuYCniGEvpq">
+                            <RelatedObjects>
+                              <IfcBuildingElementPart id="i143" pos="0" GlobalId="0Pechpapf3Igz9XLIvG5k1" Name="Panel Forward" PredefinedType="precastpanel">
+                                <IsTypedBy ref="i97" xsi:type="IfcRelDefinesByType" xsi:nil="true" />
+                              </IfcBuildingElementPart>
+                              <IfcElementAssembly id="i147" pos="1" GlobalId="154dNyacTC9ODBiATxKNJ5" Name="Frame" PredefinedType="braced_frame">
+                                <IsDecomposedBy>
+                                  <IfcRelAggregates id="i181" pos="0" GlobalId="2k3vYiLT158Q8SOcrMsXJR">
+                                    <RelatedObjects>
+                                      <IfcMember id="i129" pos="0" GlobalId="30lp6UJyv4KwjZ$VV5ySkA" Name="Track" PredefinedType="plate">
+                                        <IsTypedBy ref="i64" xsi:type="IfcRelDefinesByType" xsi:nil="true" />
+                                      </IfcMember>
+                                      <IfcMember id="i132" pos="1" GlobalId="2Gwic0O6f3MQF17H5mnvsI" Name="Studs" PredefinedType="stud">
+                                        <IsTypedBy ref="i80" xsi:type="IfcRelDefinesByType" xsi:nil="true" />
+                                      </IfcMember>
+                                    </RelatedObjects>
+                                  </IfcRelAggregates>
+                                </IsDecomposedBy>
+                                <IsTypedBy ref="i114" xsi:type="IfcRelDefinesByType" xsi:nil="true" />
+                              </IfcElementAssembly>
+                              <IfcBuildingElementPart id="i144" pos="2" GlobalId="0F5ybxF0HADQhVNDyXC1ic" Name="Panel Reverse" PredefinedType="precastpanel">
+                                <IsTypedBy ref="i97" xsi:type="IfcRelDefinesByType" xsi:nil="true" />
+                              </IfcBuildingElementPart>
+                            </RelatedObjects>
+                          </IfcRelAggregates>
+                        </IsDecomposedBy>
+                      </RelatingType>
+                    </IsTypedBy>
+                    <ObjectPlacement ref="i153" xsi:type="IfcLocalPlacement" xsi:nil="true" />
+                    <Representation id="i154" xsi:type="IfcProductDefinitionShape">
+                      <Representations>
+                        <IfcShapeRepresentation id="i160" pos="0" RepresentationIdentifier="Axis" RepresentationType="Curve2D">
+                          <ContextOfItems ref="i2" xsi:type="IfcGeometricRepresentationContext" xsi:nil="true" />
+                          <Items>
+                            <IfcPolyline id="i165" pos="0">
+                              <Points>
+                                <IfcCartesianPoint id="i167" pos="0" Coordinates="0 0" />
+                                <IfcCartesianPoint id="i168" pos="1" Coordinates="144 0" />
+                              </Points>
+                            </IfcPolyline>
+                          </Items>
+                        </IfcShapeRepresentation>
+                      </Representations>
+                    </Representation>
+                    <HasOpenings>
+                      <IfcRelVoidsElement id="i157" pos="0" GlobalId="0PPCo0_gPA7wruqoSJRqNB">
+                        <RelatedOpeningElement id="i409" xsi:type="IfcOpeningElement" GlobalId="04TbpZcR19gve3AHcfQNmN">
+                          <ObjectPlacement id="i471" xsi:type="IfcLocalPlacement">
+                            <PlacementRelTo ref="i153" xsi:type="IfcLocalPlacement" xsi:nil="true" />
+                            <RelativePlacement>
+                              <IfcAxis2Placement3D id="i473">
+                                <Location id="i475" xsi:type="IfcCartesianPoint" Coordinates="24 -2.25 0" />
+                              </IfcAxis2Placement3D>
+                            </RelativePlacement>
+                          </ObjectPlacement>
+                          <Representation id="i472" xsi:type="IfcProductDefinitionShape">
+                            <Representations>
+                              <IfcShapeRepresentation id="i474" pos="0" RepresentationIdentifier="Body" RepresentationType="SweptSolid">
+                                <ContextOfItems ref="i2" xsi:type="IfcGeometricRepresentationContext" xsi:nil="true" />
+                                <Items>
+                                  <IfcExtrudedAreaSolid id="i476" pos="0" Depth="1.5">
+                                    <SweptArea id="i477" xsi:type="IfcRectangleProfileDef" ProfileType="area" XDim="32" YDim="80">
+                                      <Position id="i480" xsi:type="IfcAxis2Placement2D">
+                                        <Location id="i484" xsi:type="IfcCartesianPoint" Coordinates="-16 40" />
+                                      </Position>
+                                    </SweptArea>
+                                    <Position id="i478" xsi:type="IfcAxis2Placement3D">
+                                      <Location id="i481" xsi:type="IfcCartesianPoint" Coordinates="0 0 0" />
+                                      <Axis id="i482" xsi:type="IfcDirection" DirectionRatios="0 1 0" />
+                                      <RefDirection id="i483" xsi:type="IfcDirection" DirectionRatios="-1 0 0" />
+                                    </Position>
+                                    <ExtrudedDirection id="i479" xsi:type="IfcDirection" DirectionRatios="0 0 1" />
+                                  </IfcExtrudedAreaSolid>
+                                </Items>
+                              </IfcShapeRepresentation>
+                            </Representations>
+                          </Representation>
+                        </RelatedOpeningElement>
+                      </IfcRelVoidsElement>
+                      <IfcRelVoidsElement id="i158" pos="1" GlobalId="3MZmErcrnCphKQbTBDCShY">
+                        <RelatedOpeningElement id="i410" xsi:type="IfcOpeningElement" GlobalId="01DJiSemH67OQX$HRpbAps" PredefinedType="opening">
+                          <ObjectPlacement id="i485" xsi:type="IfcLocalPlacement">
+                            <PlacementRelTo ref="i153" xsi:type="IfcLocalPlacement" xsi:nil="true" />
+                            <RelativePlacement>
+                              <IfcAxis2Placement3D id="i487">
+                                <Location id="i489" xsi:type="IfcCartesianPoint" Coordinates="84 0 32" />
+                                <Axis id="i490" xsi:type="IfcDirection" DirectionRatios="0 -1 0" />
+                                <RefDirection id="i491" xsi:type="IfcDirection" DirectionRatios="1 0 0" />
+                              </IfcAxis2Placement3D>
+                            </RelativePlacement>
+                          </ObjectPlacement>
+                          <Representation id="i486" xsi:type="IfcProductDefinitionShape">
+                            <Representations>
+                              <IfcShapeRepresentation id="i488" pos="0" RepresentationIdentifier="Body" RepresentationType="SweptSolid">
+                                <ContextOfItems ref="i2" xsi:type="IfcGeometricRepresentationContext" xsi:nil="true" />
+                                <Items>
+                                  <IfcExtrudedAreaSolid id="i492" pos="0" Depth="1.5">
+                                    <SweptArea id="i493" xsi:type="IfcRectangleProfileDef" ProfileType="area" XDim="36" YDim="48" />
+                                    <Position id="i494" xsi:type="IfcAxis2Placement3D">
+                                      <Location id="i496" xsi:type="IfcCartesianPoint" Coordinates="18 24 -1.5" />
+                                    </Position>
+                                    <ExtrudedDirection id="i495" xsi:type="IfcDirection" DirectionRatios="0 0 1" />
+                                  </IfcExtrudedAreaSolid>
+                                </Items>
+                              </IfcShapeRepresentation>
+                            </Representations>
+                          </Representation>
+                        </RelatedOpeningElement>
+                      </IfcRelVoidsElement>
+                    </HasOpenings>
+                  </IfcWall>
+                </RelatedElements>
+              </IfcRelContainedInSpatialStructure>
+            </ContainsElements>
+          </IfcSite>
+        </RelatedObjects>
+      </IfcRelAggregates>
+    </IsDecomposedBy>
+    <RepresentationContexts>
+      <IfcGeometricRepresentationContext ref="i2" pos="0" xsi:nil="true" />
+      <IfcGeometricRepresentationContext id="i3" pos="1" ContextIdentifier="2D" ContextType="Plan" CoordinateSpaceDimension="2" Precision="1E-05">
+        <WorldCoordinateSystem>
+          <IfcAxis2Placement3D id="i8">
+            <Location id="i19" xsi:type="IfcCartesianPoint" Coordinates="0 0 0" />
+          </IfcAxis2Placement3D>
+        </WorldCoordinateSystem>
+      </IfcGeometricRepresentationContext>
+    </RepresentationContexts>
+    <UnitsInContext id="i4" xsi:type="IfcUnitAssignment">
+      <Units>
+        <IfcConversionBasedUnit id="i9" pos="0" UnitType="areaunit" Name="square inch">
+          <Dimensions id="i20" xsi:type="IfcDimensionalExponents" LengthExponent="2" MassExponent="0" TimeExponent="0" ElectricCurrentExponent="0" ThermodynamicTemperatureExponent="0" AmountOfSubstanceExponent="0" LuminousIntensityExponent="0" />
+          <ConversionFactor id="i21" xsi:type="IfcMeasureWithUnit">
+            <ValueComponent>
+              <IfcAreaMeasure-wrapper>0.0006452</IfcAreaMeasure-wrapper>
+            </ValueComponent>
+            <UnitComponent>
+              <IfcSIUnit id="i36" UnitType="areaunit" Name="square_metre" />
+            </UnitComponent>
+          </ConversionFactor>
+        </IfcConversionBasedUnit>
+        <IfcConversionBasedUnit id="i10" pos="1" UnitType="forceunit" Name="pound-force">
+          <Dimensions id="i22" xsi:type="IfcDimensionalExponents" LengthExponent="1" MassExponent="1" TimeExponent="-2" ElectricCurrentExponent="0" ThermodynamicTemperatureExponent="0" AmountOfSubstanceExponent="0" LuminousIntensityExponent="0" />
+          <ConversionFactor id="i23" xsi:type="IfcMeasureWithUnit">
+            <ValueComponent>
+              <IfcMassMeasure-wrapper>4.44822162</IfcMassMeasure-wrapper>
+            </ValueComponent>
+            <UnitComponent>
+              <IfcSIUnit id="i37" UnitType="forceunit" Name="newton" />
+            </UnitComponent>
+          </ConversionFactor>
+        </IfcConversionBasedUnit>
+        <IfcConversionBasedUnit id="i11" pos="2" UnitType="lengthunit" Name="inch">
+          <Dimensions id="i24" xsi:type="IfcDimensionalExponents" LengthExponent="1" MassExponent="0" TimeExponent="0" ElectricCurrentExponent="0" ThermodynamicTemperatureExponent="0" AmountOfSubstanceExponent="0" LuminousIntensityExponent="0" />
+          <ConversionFactor id="i25" xsi:type="IfcMeasureWithUnit">
+            <ValueComponent>
+              <IfcLengthMeasure-wrapper>0.0254</IfcLengthMeasure-wrapper>
+            </ValueComponent>
+            <UnitComponent>
+              <IfcSIUnit id="i38" UnitType="lengthunit" Name="metre" />
+            </UnitComponent>
+          </ConversionFactor>
+        </IfcConversionBasedUnit>
+        <IfcConversionBasedUnit id="i12" pos="3" UnitType="massunit" Name="pound">
+          <Dimensions id="i26" xsi:type="IfcDimensionalExponents" LengthExponent="0" MassExponent="1" TimeExponent="0" ElectricCurrentExponent="0" ThermodynamicTemperatureExponent="0" AmountOfSubstanceExponent="0" LuminousIntensityExponent="0" />
+          <ConversionFactor id="i27" xsi:type="IfcMeasureWithUnit">
+            <ValueComponent>
+              <IfcMassMeasure-wrapper>0.45359237</IfcMassMeasure-wrapper>
+            </ValueComponent>
+            <UnitComponent>
+              <IfcSIUnit id="i39" UnitType="massunit" Prefix="kilo" Name="gram" />
+            </UnitComponent>
+          </ConversionFactor>
+        </IfcConversionBasedUnit>
+        <IfcConversionBasedUnit id="i13" pos="4" UnitType="planeangleunit" Name="degree">
+          <Dimensions id="i28" xsi:type="IfcDimensionalExponents" LengthExponent="0" MassExponent="0" TimeExponent="0" ElectricCurrentExponent="0" ThermodynamicTemperatureExponent="0" AmountOfSubstanceExponent="0" LuminousIntensityExponent="0" />
+          <ConversionFactor id="i29" xsi:type="IfcMeasureWithUnit">
+            <ValueComponent>
+              <IfcPlaneAngleMeasure-wrapper>0.0174532925199433</IfcPlaneAngleMeasure-wrapper>
+            </ValueComponent>
+            <UnitComponent>
+              <IfcSIUnit id="i40" UnitType="planeangleunit" Name="radian" />
+            </UnitComponent>
+          </ConversionFactor>
+        </IfcConversionBasedUnit>
+        <IfcConversionBasedUnit id="i14" pos="5" UnitType="pressureunit" Name="pound-force per square inch">
+          <Dimensions id="i30" xsi:type="IfcDimensionalExponents" LengthExponent="-1" MassExponent="1" TimeExponent="-2" ElectricCurrentExponent="0" ThermodynamicTemperatureExponent="0" AmountOfSubstanceExponent="0" LuminousIntensityExponent="0" />
+          <ConversionFactor id="i31" xsi:type="IfcMeasureWithUnit">
+            <ValueComponent>
+              <IfcPressureMeasure-wrapper>6894.7572932</IfcPressureMeasure-wrapper>
+            </ValueComponent>
+            <UnitComponent>
+              <IfcSIUnit id="i41" UnitType="pressureunit" Name="pascal" />
+            </UnitComponent>
+          </ConversionFactor>
+        </IfcConversionBasedUnit>
+        <IfcConversionBasedUnitWithOffset id="i15" pos="6" UnitType="thermodynamictemperatureunit" Name="Fahrenheit" ConversionOffset="-459.67">
+          <Dimensions id="i32" xsi:type="IfcDimensionalExponents" LengthExponent="0" MassExponent="0" TimeExponent="0" ElectricCurrentExponent="0" ThermodynamicTemperatureExponent="1" AmountOfSubstanceExponent="0" LuminousIntensityExponent="0" />
+          <ConversionFactor id="i33" xsi:type="IfcMeasureWithUnit">
+            <ValueComponent>
+              <IfcThermodynamicTemperatureMeasure-wrapper>1.8</IfcThermodynamicTemperatureMeasure-wrapper>
+            </ValueComponent>
+            <UnitComponent>
+              <IfcSIUnit id="i42" UnitType="thermodynamictemperatureunit" Name="kelvin" />
+            </UnitComponent>
+          </ConversionFactor>
+        </IfcConversionBasedUnitWithOffset>
+        <IfcConversionBasedUnit id="i16" pos="7" UnitType="volumeunit" Name="cubic inch">
+          <Dimensions id="i34" xsi:type="IfcDimensionalExponents" LengthExponent="3" MassExponent="0" TimeExponent="0" ElectricCurrentExponent="0" ThermodynamicTemperatureExponent="0" AmountOfSubstanceExponent="0" LuminousIntensityExponent="0" />
+          <ConversionFactor id="i35" xsi:type="IfcMeasureWithUnit">
+            <ValueComponent>
+              <IfcVolumeMeasure-wrapper>1.639E-05</IfcVolumeMeasure-wrapper>
+            </ValueComponent>
+            <UnitComponent>
+              <IfcSIUnit id="i43" UnitType="volumeunit" Name="cubic_metre" />
+            </UnitComponent>
+          </ConversionFactor>
+        </IfcConversionBasedUnit>
+        <IfcMonetaryUnit id="i17" pos="8" Currency="USD" />
+      </Units>
+    </UnitsInContext>
+    <Declares>
+      <IfcRelDeclares id="i6" pos="0" GlobalId="3Zu$B51Gv7hvX_I1v6LiPo">
+        <RelatedDefinitions>
+          <IfcMemberType ref="i45" pos="0" xsi:nil="true" />
+          <IfcMemberType ref="i46" pos="1" xsi:nil="true" />
+          <IfcBuildingElementPartType ref="i47" pos="2" xsi:nil="true" />
+          <IfcElementAssemblyType ref="i48" pos="3" xsi:nil="true" />
+          <IfcWallType ref="i49" pos="4" xsi:nil="true" />
+        </RelatedDefinitions>
+      </IfcRelDeclares>
+    </Declares>
+  </IfcProject>
+  <IfcRelAssociatesMaterial id="i63" GlobalId="3jKgd0d$X8numOzmr$PX4I">
+    <RelatedObjects>
+      <IfcMemberType ref="i46" pos="0" xsi:nil="true" />
+      <IfcMemberType ref="i45" pos="1" xsi:nil="true" />
+    </RelatedObjects>
+    <RelatingMaterial>
+      <IfcMaterialProfileSet id="i124" Name="2x4 Lumber">
+        <MaterialProfiles>
+          <IfcMaterialProfile id="i125" pos="0">
+            <Material id="i126" xsi:type="IfcMaterial" Name="Southern Pine" Category="Wood" />
+            <Profile id="i127" xsi:type="IfcRectangleProfileDef" ProfileType="area" XDim="1.5" YDim="3.5" />
+          </IfcMaterialProfile>
+        </MaterialProfiles>
+      </IfcMaterialProfileSet>
+    </RelatingMaterial>
+  </IfcRelAssociatesMaterial>
+  <IfcRelAssociatesMaterial id="i96" GlobalId="18fTMjClX5afvrQY7ovGJV">
+    <RelatedObjects>
+      <IfcBuildingElementPartType ref="i47" pos="0" xsi:nil="true" />
+    </RelatedObjects>
+    <RelatingMaterial>
+      <IfcMaterialLayerSet id="i134">
+        <MaterialLayers>
+          <IfcMaterialLayerWithOffsets id="i135" pos="0" LayerThickness="0.5" OffsetDirection="axis3" OffsetValues="0 0">
+            <Material id="i136" xsi:type="IfcMaterial" Name="X" Category="Gypsum">
+              <HasRepresentation id="i137" xsi:type="IfcMaterialDefinitionRepresentation">
+                <Representations>
+                  <IfcStyledRepresentation id="i138" pos="0" RepresentationIdentifier="Undefined" RepresentationType="Undefined">
+                    <ContextOfItems ref="i3" xsi:type="IfcGeometricRepresentationContext" xsi:nil="true" />
+                    <Items>
+                      <IfcStyledItem id="i139" pos="0">
+                        <Styles>
+                          <IfcSurfaceStyle id="i140" pos="0" Side="positive">
+                            <Styles>
+                              <IfcSurfaceStyleShading id="i141" pos="0">
+                                <SurfaceColour id="i142" xsi:type="IfcColourRgb" Red="0.752941176470588" Green="0.752941176470588" Blue="0.752941176470588" />
+                              </IfcSurfaceStyleShading>
+                            </Styles>
+                          </IfcSurfaceStyle>
+                        </Styles>
+                      </IfcStyledItem>
+                    </Items>
+                  </IfcStyledRepresentation>
+                </Representations>
+              </HasRepresentation>
+            </Material>
+          </IfcMaterialLayerWithOffsets>
+        </MaterialLayers>
+      </IfcMaterialLayerSet>
+    </RelatingMaterial>
+  </IfcRelAssociatesMaterial>
+  <IfcRelAssociatesMaterial id="i120" GlobalId="2xhXrFIHbEPOyoie$hOuw2">
+    <RelatedObjects>
+      <IfcWallType ref="i49" pos="0" xsi:nil="true" />
+    </RelatedObjects>
+    <RelatingMaterial>
+      <IfcMaterialLayerSet id="i149" LayerSetName="Wall">
+        <MaterialLayers>
+          <IfcMaterialLayerWithOffsets id="i150" pos="0" LayerThickness="0.5" Name="Panel Forward" OffsetDirection="axis3" OffsetValues="0 0" />
+          <IfcMaterialLayerWithOffsets id="i151" pos="1" LayerThickness="3.5" Name="Frame" OffsetDirection="axis1" OffsetValues="0 0" />
+          <IfcMaterialLayerWithOffsets id="i152" pos="2" LayerThickness="0.5" Name="Panel Reverse" OffsetDirection="axis1" OffsetValues="0 0" />
+        </MaterialLayers>
+      </IfcMaterialLayerSet>
+    </RelatingMaterial>
+  </IfcRelAssociatesMaterial>
+  <IfcRelAssociatesMaterial id="i155" GlobalId="0I3e_5YYL0ZxVzuxShgDpU">
+    <RelatedObjects>
+      <IfcWall ref="i123" pos="0" xsi:nil="true" />
+    </RelatedObjects>
+    <RelatingMaterial>
+      <IfcMaterialLayerSetUsage id="i408" LayerSetDirection="axis2" DirectionSense="positive" OffsetFromReferenceLine="0">
+        <ForLayerSet ref="i149" xsi:type="IfcMaterialLayerSet" xsi:nil="true" />
+      </IfcMaterialLayerSetUsage>
+    </RelatingMaterial>
+  </IfcRelAssociatesMaterial>
+  <IfcRelAssociatesMaterial id="i179" GlobalId="3vPcKoYsT1oflDajkC6Szx">
+    <RelatedObjects>
+      <IfcMember ref="i128" pos="0" xsi:nil="true" />
+    </RelatedObjects>
+    <RelatingMaterial>
+      <IfcMaterialProfileSetUsage id="i411" CardinalPoint="2">
+        <ForProfileSet id="i412" xsi:type="IfcMaterialProfileSet">
+          <MaterialProfiles>
+            <IfcMaterialProfile id="i413" pos="0">
+              <Material id="i414" xsi:type="IfcMaterial" Name="Southern Pine">
+                <HasRepresentation id="i418" xsi:type="IfcMaterialDefinitionRepresentation">
+                  <Representations>
+                    <IfcStyledRepresentation id="i427" pos="0" RepresentationIdentifier="Undefined" RepresentationType="Undefined">
+                      <ContextOfItems ref="i3" xsi:type="IfcGeometricRepresentationContext" xsi:nil="true" />
+                      <Items>
+                        <IfcStyledItem id="i428" pos="0">
+                          <Styles>
+                            <IfcSurfaceStyle id="i429" pos="0" Side="positive">
+                              <Styles>
+                                <IfcSurfaceStyleShading id="i430" pos="0">
+                                  <SurfaceColour id="i431" xsi:type="IfcColourRgb" Red="1" Green="0.501960784313725" Blue="0.250980392156863" />
+                                </IfcSurfaceStyleShading>
+                              </Styles>
+                            </IfcSurfaceStyle>
+                          </Styles>
+                        </IfcStyledItem>
+                      </Items>
+                    </IfcStyledRepresentation>
+                  </Representations>
+                </HasRepresentation>
+              </Material>
+              <Profile id="i415" xsi:type="IfcRectangleProfileDef" ProfileType="area" ProfileName="2x10" XDim="1.5" YDim="9.25" />
+            </IfcMaterialProfile>
+          </MaterialProfiles>
+        </ForProfileSet>
+      </IfcMaterialProfileSetUsage>
+    </RelatingMaterial>
+  </IfcRelAssociatesMaterial>
+  <IfcRelAssociatesMaterial id="i180" GlobalId="04xnFkSZ568fB3nbe7UdDe">
+    <RelatedObjects>
+      <IfcMember ref="i129" pos="0" xsi:nil="true" />
+    </RelatedObjects>
+    <RelatingMaterial>
+      <IfcMaterialProfileSetUsage id="i432">
+        <ForProfileSet id="i433" xsi:type="IfcMaterialProfileSet">
+          <MaterialProfiles>
+            <IfcMaterialProfile id="i434" pos="0">
+              <Material id="i435" xsi:type="IfcMaterial" Name="Southern Pine">
+                <HasRepresentation id="i437" xsi:type="IfcMaterialDefinitionRepresentation">
+                  <Representations>
+                    <IfcStyledRepresentation id="i438" pos="0" RepresentationIdentifier="Undefined" RepresentationType="Undefined">
+                      <ContextOfItems id="i439" xsi:type="IfcGeometricRepresentationContext" ContextIdentifier="2D" ContextType="Plan" CoordinateSpaceDimension="2" Precision="1E-05">
+                        <WorldCoordinateSystem>
+                          <IfcAxis2Placement3D id="i441">
+                            <Location id="i443" xsi:type="IfcCartesianPoint" Coordinates="0 0 0" />
+                          </IfcAxis2Placement3D>
+                        </WorldCoordinateSystem>
+                      </ContextOfItems>
+                      <Items>
+                        <IfcStyledItem id="i440" pos="0">
+                          <Styles>
+                            <IfcSurfaceStyle id="i442" pos="0" Side="positive">
+                              <Styles>
+                                <IfcSurfaceStyleShading id="i444" pos="0">
+                                  <SurfaceColour id="i445" xsi:type="IfcColourRgb" Red="1" Green="0.501960784313725" Blue="0.250980392156863" />
+                                </IfcSurfaceStyleShading>
+                              </Styles>
+                            </IfcSurfaceStyle>
+                          </Styles>
+                        </IfcStyledItem>
+                      </Items>
+                    </IfcStyledRepresentation>
+                  </Representations>
+                </HasRepresentation>
+              </Material>
+              <Profile id="i436" xsi:type="IfcRectangleProfileDef" ProfileType="area" XDim="3.5" YDim="1.5" />
+            </IfcMaterialProfile>
+          </MaterialProfiles>
+        </ForProfileSet>
+      </IfcMaterialProfileSetUsage>
+    </RelatingMaterial>
+  </IfcRelAssociatesMaterial>
+  <IfcRelAssociatesMaterial id="i184" GlobalId="04MHfV7HXC4ge78OwKZa5s">
+    <RelatedObjects>
+      <IfcMember ref="i130" pos="0" xsi:nil="true" />
+    </RelatedObjects>
+    <RelatingMaterial>
+      <IfcMaterialProfileSetUsage id="i446">
+        <ForProfileSet id="i447" xsi:type="IfcMaterialProfileSet">
+          <MaterialProfiles>
+            <IfcMaterialProfile id="i448" pos="0">
+              <Material id="i449" xsi:type="IfcMaterial" Name="Southern Pine">
+                <HasRepresentation id="i451" xsi:type="IfcMaterialDefinitionRepresentation">
+                  <Representations>
+                    <IfcStyledRepresentation id="i452" pos="0" RepresentationIdentifier="Undefined" RepresentationType="Undefined">
+                      <ContextOfItems id="i453" xsi:type="IfcGeometricRepresentationContext" ContextIdentifier="2D" ContextType="Plan" CoordinateSpaceDimension="2" Precision="1E-05">
+                        <WorldCoordinateSystem>
+                          <IfcAxis2Placement3D id="i455">
+                            <Location id="i457" xsi:type="IfcCartesianPoint" Coordinates="0 0 0" />
+                          </IfcAxis2Placement3D>
+                        </WorldCoordinateSystem>
+                      </ContextOfItems>
+                      <Items>
+                        <IfcStyledItem id="i454" pos="0">
+                          <Styles>
+                            <IfcSurfaceStyle id="i456" pos="0" Side="positive">
+                              <Styles>
+                                <IfcSurfaceStyleShading id="i458" pos="0">
+                                  <SurfaceColour id="i459" xsi:type="IfcColourRgb" Red="1" Green="0.501960784313725" Blue="0.250980392156863" />
+                                </IfcSurfaceStyleShading>
+                              </Styles>
+                            </IfcSurfaceStyle>
+                          </Styles>
+                        </IfcStyledItem>
+                      </Items>
+                    </IfcStyledRepresentation>
+                  </Representations>
+                </HasRepresentation>
+              </Material>
+              <Profile id="i450" xsi:type="IfcRectangleProfileDef" ProfileType="area" XDim="3.5" YDim="1.5" />
+            </IfcMaterialProfile>
+          </MaterialProfiles>
+        </ForProfileSet>
+      </IfcMaterialProfileSetUsage>
+    </RelatingMaterial>
+  </IfcRelAssociatesMaterial>
+  <IfcRelAssociatesMaterial id="i230" GlobalId="3mjksFMH99he9ZkubOmiJq">
+    <RelatedObjects>
+      <IfcMember ref="i131" pos="0" xsi:nil="true" />
+    </RelatedObjects>
+    <RelatingMaterial>
+      <IfcMaterialProfileSetUsage id="i460" CardinalPoint="5">
+        <ForProfileSet ref="i124" xsi:type="IfcMaterialProfileSet" xsi:nil="true" />
+      </IfcMaterialProfileSetUsage>
+    </RelatingMaterial>
+  </IfcRelAssociatesMaterial>
+  <IfcRelAssociatesMaterial id="i231" GlobalId="2ESe9E$0X7he09QXubBhQG">
+    <RelatedObjects>
+      <IfcMember ref="i132" pos="0" xsi:nil="true" />
+    </RelatedObjects>
+    <RelatingMaterial>
+      <IfcMaterialProfileSetUsage id="i461">
+        <ForProfileSet id="i462" xsi:type="IfcMaterialProfileSet">
+          <MaterialProfiles>
+            <IfcMaterialProfile id="i463" pos="0">
+              <Material id="i464" xsi:type="IfcMaterial" Name="Southern Pine" />
+              <Profile id="i465" xsi:type="IfcRectangleProfileDef" ProfileType="area" XDim="1.5" YDim="3.5" />
+            </IfcMaterialProfile>
+          </MaterialProfiles>
+        </ForProfileSet>
+      </IfcMaterialProfileSetUsage>
+    </RelatingMaterial>
+  </IfcRelAssociatesMaterial>
+  <IfcRelAssociatesMaterial id="i234" GlobalId="3KZdhyB3H19wi3lQokeHYU">
+    <RelatedObjects>
+      <IfcMember ref="i133" pos="0" xsi:nil="true" />
+    </RelatedObjects>
+    <RelatingMaterial>
+      <IfcMaterialProfileSetUsage id="i466">
+        <ForProfileSet id="i467" xsi:type="IfcMaterialProfileSet">
+          <MaterialProfiles>
+            <IfcMaterialProfile id="i468" pos="0">
+              <Material id="i469" xsi:type="IfcMaterial" Name="Southern Pine" />
+              <Profile id="i470" xsi:type="IfcRectangleProfileDef" ProfileType="area" XDim="1.5" YDim="3.5" />
+            </IfcMaterialProfile>
+          </MaterialProfiles>
+        </ForProfileSet>
+      </IfcMaterialProfileSetUsage>
+    </RelatingMaterial>
+  </IfcRelAssociatesMaterial>
+</ifcXML>

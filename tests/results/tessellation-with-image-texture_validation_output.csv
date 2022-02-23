@@ -1,0 +1,4 @@
+line,id,error_type,error_message,rule_name,entity_type,attribute_type,link,document_reference
+124,i43,Parent Rule violation,Name attribute has to be given,NameRequired,IfcBoilerType,SUPERTYPE: IfcTypeObject,https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD2_TC1/HTML/schema/ifckernel/lexical/ifctypeobject.htm,7.5.3.8
+132,i46,Rule violation,According to the RepresentationType the Items aren't properly used,CorrectItemsForType,IfcShapeRepresentation,,https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD2_TC1/HTML/schema/ifcrepresentationresource/lexical/ifcshaperepresentation.htm,8.18.3.14
+159,i51,List size violation,The number of child elements is too small.,,IfcSurfaceTexture,,https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD2_TC1/HTML/schema/ifcpresentationappearanceresource/lexical/ifcindexedtexturemap.htm,8.12.3.20

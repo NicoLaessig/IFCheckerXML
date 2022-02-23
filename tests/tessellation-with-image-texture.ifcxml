@@ -1,0 +1,386 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ifcXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ifc="http://www.buildingsmart-tech.org/ifcXML/IFC4/Add2" xsi:schemaLocation="http://www.buildingsmart-tech.org/ifcXML/IFC4/Add2 https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD2/XML/IFC4_ADD2.xsd" id="uos_1" express="https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD2/EXPRESS/IFC4_ADD2.exp" xmlns="http://www.buildingsmart-tech.org/ifcXML/IFC4/Add2">
+  <header>
+    <name>D:\Uni\CODE\Validator\ifc_files\tessellation-with-image-texture.ifc</name>
+    <time_stamp>2016-05-06T03:47:49</time_stamp>
+    <author />
+    <organization />
+    <preprocessor_version>Constructivity 2016.02.09</preprocessor_version>
+    <originating_system>Constructivity 2016.02.09</originating_system>
+  </header>
+  <IfcProject id="i1" GlobalId="10kad3X9L7HRl25ZiOK$bx" Name="Project">
+    <RepresentationContexts>
+      <IfcGeometricRepresentationContext id="i2" pos="0" ContextIdentifier="3D" ContextType="Model" CoordinateSpaceDimension="3" Precision="1E-05">
+        <WorldCoordinateSystem>
+          <IfcAxis2Placement3D id="i6">
+            <Location id="i17" xsi:type="IfcCartesianPoint" Coordinates="0 0 0" />
+          </IfcAxis2Placement3D>
+        </WorldCoordinateSystem>
+      </IfcGeometricRepresentationContext>
+      <IfcGeometricRepresentationContext id="i3" pos="1" ContextIdentifier="2D" ContextType="Plan" CoordinateSpaceDimension="2" Precision="1E-05">
+        <WorldCoordinateSystem>
+          <IfcAxis2Placement3D id="i7">
+            <Location id="i18" xsi:type="IfcCartesianPoint" Coordinates="0 0 0" />
+          </IfcAxis2Placement3D>
+        </WorldCoordinateSystem>
+      </IfcGeometricRepresentationContext>
+    </RepresentationContexts>
+    <UnitsInContext id="i4" xsi:type="IfcUnitAssignment">
+      <Units>
+        <IfcConversionBasedUnit id="i8" pos="0" UnitType="areaunit" Name="square inch">
+          <Dimensions id="i19" xsi:type="IfcDimensionalExponents" LengthExponent="2" MassExponent="0" TimeExponent="0" ElectricCurrentExponent="0" ThermodynamicTemperatureExponent="0" AmountOfSubstanceExponent="0" LuminousIntensityExponent="0" />
+          <ConversionFactor id="i20" xsi:type="IfcMeasureWithUnit">
+            <ValueComponent>
+              <IfcAreaMeasure-wrapper>0.0006452</IfcAreaMeasure-wrapper>
+            </ValueComponent>
+            <UnitComponent>
+              <IfcSIUnit id="i35" UnitType="areaunit" Name="square_metre" />
+            </UnitComponent>
+          </ConversionFactor>
+        </IfcConversionBasedUnit>
+        <IfcConversionBasedUnit id="i9" pos="1" UnitType="forceunit" Name="pound-force">
+          <Dimensions id="i21" xsi:type="IfcDimensionalExponents" LengthExponent="1" MassExponent="1" TimeExponent="-2" ElectricCurrentExponent="0" ThermodynamicTemperatureExponent="0" AmountOfSubstanceExponent="0" LuminousIntensityExponent="0" />
+          <ConversionFactor id="i22" xsi:type="IfcMeasureWithUnit">
+            <ValueComponent>
+              <IfcMassMeasure-wrapper>4.44822162</IfcMassMeasure-wrapper>
+            </ValueComponent>
+            <UnitComponent>
+              <IfcSIUnit id="i36" UnitType="forceunit" Name="newton" />
+            </UnitComponent>
+          </ConversionFactor>
+        </IfcConversionBasedUnit>
+        <IfcConversionBasedUnit id="i10" pos="2" UnitType="lengthunit" Name="inch">
+          <Dimensions id="i23" xsi:type="IfcDimensionalExponents" LengthExponent="1" MassExponent="0" TimeExponent="0" ElectricCurrentExponent="0" ThermodynamicTemperatureExponent="0" AmountOfSubstanceExponent="0" LuminousIntensityExponent="0" />
+          <ConversionFactor id="i24" xsi:type="IfcMeasureWithUnit">
+            <ValueComponent>
+              <IfcLengthMeasure-wrapper>0.0254</IfcLengthMeasure-wrapper>
+            </ValueComponent>
+            <UnitComponent>
+              <IfcSIUnit id="i37" UnitType="lengthunit" Name="metre" />
+            </UnitComponent>
+          </ConversionFactor>
+        </IfcConversionBasedUnit>
+        <IfcConversionBasedUnit id="i11" pos="3" UnitType="massunit" Name="pound">
+          <Dimensions id="i25" xsi:type="IfcDimensionalExponents" LengthExponent="0" MassExponent="1" TimeExponent="0" ElectricCurrentExponent="0" ThermodynamicTemperatureExponent="0" AmountOfSubstanceExponent="0" LuminousIntensityExponent="0" />
+          <ConversionFactor id="i26" xsi:type="IfcMeasureWithUnit">
+            <ValueComponent>
+              <IfcMassMeasure-wrapper>0.45359237</IfcMassMeasure-wrapper>
+            </ValueComponent>
+            <UnitComponent>
+              <IfcSIUnit id="i38" UnitType="massunit" Prefix="kilo" Name="gram" />
+            </UnitComponent>
+          </ConversionFactor>
+        </IfcConversionBasedUnit>
+        <IfcConversionBasedUnit id="i12" pos="4" UnitType="planeangleunit" Name="degree">
+          <Dimensions id="i27" xsi:type="IfcDimensionalExponents" LengthExponent="0" MassExponent="0" TimeExponent="0" ElectricCurrentExponent="0" ThermodynamicTemperatureExponent="0" AmountOfSubstanceExponent="0" LuminousIntensityExponent="0" />
+          <ConversionFactor id="i28" xsi:type="IfcMeasureWithUnit">
+            <ValueComponent>
+              <IfcPlaneAngleMeasure-wrapper>0.0174532925199433</IfcPlaneAngleMeasure-wrapper>
+            </ValueComponent>
+            <UnitComponent>
+              <IfcSIUnit id="i39" UnitType="planeangleunit" Name="radian" />
+            </UnitComponent>
+          </ConversionFactor>
+        </IfcConversionBasedUnit>
+        <IfcConversionBasedUnit id="i13" pos="5" UnitType="pressureunit" Name="pound-force per square inch">
+          <Dimensions id="i29" xsi:type="IfcDimensionalExponents" LengthExponent="-1" MassExponent="1" TimeExponent="-2" ElectricCurrentExponent="0" ThermodynamicTemperatureExponent="0" AmountOfSubstanceExponent="0" LuminousIntensityExponent="0" />
+          <ConversionFactor id="i30" xsi:type="IfcMeasureWithUnit">
+            <ValueComponent>
+              <IfcPressureMeasure-wrapper>6894.7572932</IfcPressureMeasure-wrapper>
+            </ValueComponent>
+            <UnitComponent>
+              <IfcSIUnit id="i40" UnitType="pressureunit" Name="pascal" />
+            </UnitComponent>
+          </ConversionFactor>
+        </IfcConversionBasedUnit>
+        <IfcConversionBasedUnitWithOffset id="i14" pos="6" UnitType="thermodynamictemperatureunit" Name="Fahrenheit" ConversionOffset="-459.67">
+          <Dimensions id="i31" xsi:type="IfcDimensionalExponents" LengthExponent="0" MassExponent="0" TimeExponent="0" ElectricCurrentExponent="0" ThermodynamicTemperatureExponent="1" AmountOfSubstanceExponent="0" LuminousIntensityExponent="0" />
+          <ConversionFactor id="i32" xsi:type="IfcMeasureWithUnit">
+            <ValueComponent>
+              <IfcThermodynamicTemperatureMeasure-wrapper>1.8</IfcThermodynamicTemperatureMeasure-wrapper>
+            </ValueComponent>
+            <UnitComponent>
+              <IfcSIUnit id="i41" UnitType="thermodynamictemperatureunit" Name="kelvin" />
+            </UnitComponent>
+          </ConversionFactor>
+        </IfcConversionBasedUnitWithOffset>
+        <IfcConversionBasedUnit id="i15" pos="7" UnitType="volumeunit" Name="cubic inch">
+          <Dimensions id="i33" xsi:type="IfcDimensionalExponents" LengthExponent="3" MassExponent="0" TimeExponent="0" ElectricCurrentExponent="0" ThermodynamicTemperatureExponent="0" AmountOfSubstanceExponent="0" LuminousIntensityExponent="0" />
+          <ConversionFactor id="i34" xsi:type="IfcMeasureWithUnit">
+            <ValueComponent>
+              <IfcVolumeMeasure-wrapper>1.639E-05</IfcVolumeMeasure-wrapper>
+            </ValueComponent>
+            <UnitComponent>
+              <IfcSIUnit id="i42" UnitType="volumeunit" Name="cubic_metre" />
+            </UnitComponent>
+          </ConversionFactor>
+        </IfcConversionBasedUnit>
+        <IfcMonetaryUnit id="i16" pos="8" Currency="USD" />
+      </Units>
+    </UnitsInContext>
+    <Declares>
+      <IfcRelDeclares id="i5" pos="0" GlobalId="3FXPqqCWT9I9Gn7115PFHw">
+        <RelatedDefinitions>
+          <IfcBoilerType id="i43" pos="0" GlobalId="2n5ASfQfT84eP9h$zLLJ4A" PredefinedType="notdefined">
+            <RepresentationMaps>
+              <IfcRepresentationMap id="i44" pos="0">
+                <MappingOrigin>
+                  <IfcAxis2Placement3D id="i45">
+                    <Location id="i47" xsi:type="IfcCartesianPoint" Coordinates="0 0 0" />
+                  </IfcAxis2Placement3D>
+                </MappingOrigin>
+                <MappedRepresentation id="i46" xsi:type="IfcShapeRepresentation" RepresentationIdentifier="Body" RepresentationType="CSG">
+                  <ContextOfItems ref="i2" xsi:type="IfcGeometricRepresentationContext" xsi:nil="true" />
+                  <Items>
+                    <IfcTriangulatedFaceSet id="i48" pos="0" Closed="true" CoordIndex="1 4 3 38 54 37 38 55 54 2 20 21 1 5 4 39 55 38 39 56 55 2 21 22 1 6 5 40 56 39 40 57 56 2 22 23 1 7 6 41 57 40 41 58 57 2 23 24 1 8 7 42 58 41 42 59 58 2 24 25 1 9 8 43 59 42 43 60 59 2 25 26 1 10 9 44 60 43 44 61 60 2 26 27 1 11 10 45 61 44 45 62 61 2 27 28 1 12 11 46 62 45 46 63 62 2 28 29 1 13 12 47 63 46 47 64 63 2 29 30 1 14 13 48 64 47 48 65 64 2 30 31 1 15 14 49 65 48 49 66 65 2 31 32 1 16 15 50 66 49 50 67 66 2 32 33 1 17 16 51 67 50 51 68 67 2 33 34 1 18 17 52 68 51 52 69 68 2 34 35 1 19 18 53 69 52 53 70 69 2 35 36" PnIndex="1 4 3 38 54 37 38 55 54 2 20 21 1 5 4 39 55 38 39 56 55 2 21 22 1 6 5 40 56 39 40 57 56 2 22 23 1 7 6 41 57 40 41 58 57 2 23 24 1 8 7 42 58 41 42 59 58 2 24 25 1 9 8 43 59 42 43 60 59 2 25 26 1 10 9 44 60 43 44 61 60 2 26 27 1 11 10 45 61 44 45 62 61 2 27 28 1 12 11 46 62 45 46 63 62 2 28 29 1 13 12 47 63 46 47 64 63 2 29 30 1 14 13 48 64 47 48 65 64 2 30 31 1 15 14 49 65 48 49 66 65 2 31 32 1 16 15 50 66 49 50 67 66 2 32 33 1 17 16 51 67 50 51 68 67 2 33 34 1 18 17 52 68 51 52 69 68 2 34 35 1 19 18 53 69 52 53 70 69 2 35 36">
+                      <StyledByItem id="i50" xsi:type="IfcStyledItem">
+                        <Styles>
+                          <IfcSurfaceStyle id="i52" pos="0" Side="positive">
+                            <Styles>
+                              <IfcSurfaceStyleRendering id="i54" pos="0" ReflectanceMethod="notdefined">
+                                <SurfaceColour id="i56" xsi:type="IfcColourRgb" Red="1" Green="1" Blue="1" />
+                              </IfcSurfaceStyleRendering>
+                              <IfcSurfaceStyleWithTextures id="i55" pos="1">
+                                <Textures>
+                                  <IfcImageTexture id="i57" pos="0" RepeatS="true" RepeatT="true" Mode="TEXTURE" Parameter="" URLReference="texture.png">
+                                    <TextureTransform id="i58" xsi:type="IfcCartesianTransformationOperator2D" Scale="48">
+                                      <Axis1 id="i59" xsi:type="IfcDirection" DirectionRatios="1 0" />
+                                      <LocalOrigin id="i60" xsi:type="IfcCartesianPoint" Coordinates="0 0" />
+                                    </TextureTransform>
+                                  </IfcImageTexture>
+                                </Textures>
+                              </IfcSurfaceStyleWithTextures>
+                            </Styles>
+                          </IfcSurfaceStyle>
+                        </Styles>
+                      </StyledByItem>
+                      <Coordinates id="i49" xsi:type="IfcCartesianPointList3D" CoordList="0 0 0 0 0 48 24 0 0 22.1731087802709 9.18440237676215 0 16.9705627484771 16.9705627484771 0 9.18440237676216 22.1731087802709 0 1.46952762458685E-15 24 0 -9.18440237676215 22.1731087802709 0 -16.9705627484771 16.9705627484771 0 -22.1731087802709 9.18440237676216 0 -24 2.93905524917371E-15 0 -22.1731087802709 -9.18440237676215 0 -16.9705627484771 -16.9705627484771 0 -9.18440237676217 -22.1731087802709 0 -4.40858287376056E-15 -24 0 9.18440237676216 -22.1731087802709 0 16.9705627484771 -16.9705627484771 0 22.1731087802709 -9.18440237676217 0 24 -5.87811049834741E-15 0 24 0 48 22.1731087802709 9.18440237676215 48 16.9705627484771 16.9705627484771 48 9.18440237676216 22.1731087802709 48 1.46952762458685E-15 24 48 -9.18440237676215 22.1731087802709 48 -16.9705627484771 16.9705627484771 48 -22.1731087802709 9.18440237676216 48 -24 2.93905524917371E-15 48 -22.1731087802709 -9.18440237676215 48 -16.9705627484771 -16.9705627484771 48 -9.18440237676217 -22.1731087802709 48 -4.40858287376056E-15 -24 48 9.18440237676216 -22.1731087802709 48 16.9705627484771 -16.9705627484771 48 22.1731087802709 -9.18440237676217 48 24 -5.87811049834741E-15 48 24 0 0 22.1731087802709 9.18440237676215 0 16.9705627484771 16.9705627484771 0 9.18440237676216 22.1731087802709 0 1.46952762458685E-15 24 0 -9.18440237676215 22.1731087802709 0 -16.9705627484771 16.9705627484771 0 -22.1731087802709 9.18440237676216 0 -24 2.93905524917371E-15 0 -22.1731087802709 -9.18440237676215 0 -16.9705627484771 -16.9705627484771 0 -9.18440237676217 -22.1731087802709 0 -4.40858287376056E-15 -24 0 9.18440237676216 -22.1731087802709 0 16.9705627484771 -16.9705627484771 0 22.1731087802709 -9.18440237676217 0 24 -5.87811049834741E-15 0 24 0 48 22.1731087802709 9.18440237676215 48 16.9705627484771 16.9705627484771 48 9.18440237676216 22.1731087802709 48 1.46952762458685E-15 24 48 -9.18440237676215 22.1731087802709 48 -16.9705627484771 16.9705627484771 48 -22.1731087802709 9.18440237676216 48 -24 2.93905524917371E-15 48 -22.1731087802709 -9.18440237676215 48 -16.9705627484771 -16.9705627484771 48 -9.18440237676217 -22.1731087802709 48 -4.40858287376056E-15 -24 48 9.18440237676216 -22.1731087802709 48 16.9705627484771 -16.9705627484771 48 22.1731087802709 -9.18440237676217 48 24 -5.87811049834741E-15 48" />
+                      <HasTextures>
+                        <IfcIndexedTriangleTextureMap id="i51" pos="0" TexCoordIndex="1 4 3 38 54 37 38 55 54 2 20 21 1 5 4 39 55 38 39 56 55 2 21 22 1 6 5 40 56 39 40 57 56 2 22 23 1 7 6 41 57 40 41 58 57 2 23 24 1 8 7 42 58 41 42 59 58 2 24 25 1 9 8 43 59 42 43 60 59 2 25 26 1 10 9 44 60 43 44 61 60 2 26 27 1 11 10 45 61 44 45 62 61 2 27 28 1 12 11 46 62 45 46 63 62 2 28 29 1 13 12 47 63 46 47 64 63 2 29 30 1 14 13 48 64 47 48 65 64 2 30 31 1 15 14 49 65 48 49 66 65 2 31 32 1 16 15 50 66 49 50 67 66 2 32 33 1 17 16 51 67 50 51 68 67 2 33 34 1 18 17 52 68 51 52 69 68 2 34 35 1 19 18 53 69 52 53 70 69 2 35 36">
+                          <Maps />
+                          <TexCoords id="i53" xsi:type="IfcTextureVertexList" TexCoordsList="0.5 0.5 0.5 0.5 1 0.5 0.961939766255643 0.308658283817455 0.853553390593274 0.146446609406726 0.691341716182545 0.0380602337443566 0.5 0 0.308658283817455 0.0380602337443566 0.146446609406726 0.146446609406726 0.0380602337443566 0.308658283817455 0 0.5 0.0380602337443566 0.691341716182545 0.146446609406726 0.853553390593274 0.308658283817455 0.961939766255643 0.5 1 0.691341716182545 0.961939766255643 0.853553390593274 0.853553390593274 0.961939766255643 0.691341716182545 1 0.5 1 0.5 0.961939766255643 0.691341716182545 0.853553390593274 0.853553390593274 0.691341716182545 0.961939766255643 0.5 1 0.308658283817455 0.961939766255643 0.146446609406726 0.853553390593274 0.0380602337443566 0.691341716182545 0 0.5 0.0380602337443566 0.308658283817455 0.146446609406726 0.146446609406726 0.308658283817455 0.0380602337443567 0.5 0 0.691341716182545 0.0380602337443567 0.853553390593274 0.146446609406726 0.961939766255643 0.308658283817455 1 0.5 -0.25 0 -0.1875 0 -0.125 0 -0.0625 0 0 0 0.0625 0 0.125 0 0.1875 0 0.25 0 0.3125 0 0.375 0 0.4375 0 0.5 0 0.5625 0 0.625 0 0.6875 0 0.75 0 -0.25 1 -0.1875 1 -0.125 1 -0.0625 1 0 1 0.0625 1 0.125 1 0.1875 1 0.25 1 0.3125 1 0.375 1 0.4375 1 0.5 1 0.5625 1 0.625 1 0.6875 1 0.75 1" />
+                        </IfcIndexedTriangleTextureMap>
+                      </HasTextures>
+                      <Normals>
+                        <IfcParameterValue-wrapper pos="0 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="0 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="0 2">-1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="1 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="1 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="1 2">1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="2 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="2 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="2 2">-1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="3 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="3 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="3 2">-1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="4 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="4 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="4 2">-1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="5 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="5 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="5 2">-1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="6 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="6 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="6 2">-1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="7 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="7 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="7 2">-1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="8 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="8 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="8 2">-1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="9 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="9 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="9 2">-1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="10 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="10 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="10 2">-1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="11 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="11 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="11 2">-1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="12 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="12 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="12 2">-1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="13 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="13 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="13 2">-1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="14 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="14 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="14 2">-1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="15 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="15 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="15 2">-1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="16 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="16 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="16 2">-1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="17 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="17 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="17 2">-1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="18 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="18 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="18 2">-1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="19 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="19 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="19 2">1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="20 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="20 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="20 2">1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="21 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="21 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="21 2">1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="22 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="22 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="22 2">1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="23 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="23 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="23 2">1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="24 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="24 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="24 2">1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="25 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="25 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="25 2">1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="26 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="26 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="26 2">1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="27 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="27 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="27 2">1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="28 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="28 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="28 2">1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="29 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="29 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="29 2">1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="30 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="30 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="30 2">1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="31 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="31 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="31 2">1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="32 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="32 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="32 2">1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="33 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="33 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="33 2">1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="34 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="34 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="34 2">1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="35 0">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="35 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="35 2">1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="36 0">1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="36 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="36 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="37 0">0.923879532511287</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="37 1">0.38268343236509</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="37 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="38 0">0.707106781186548</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="38 1">0.707106781186547</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="38 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="39 0">0.38268343236509</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="39 1">0.923879532511287</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="39 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="40 0">6.12303176911189E-17</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="40 1">1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="40 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="41 0">-0.38268343236509</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="41 1">0.923879532511287</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="41 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="42 0">-0.707106781186547</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="42 1">0.707106781186548</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="42 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="43 0">-0.923879532511287</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="43 1">0.38268343236509</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="43 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="44 0">-1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="44 1">1.22460635382238E-16</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="44 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="45 0">-0.923879532511287</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="45 1">-0.38268343236509</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="45 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="46 0">-0.707106781186548</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="46 1">-0.707106781186547</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="46 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="47 0">-0.38268343236509</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="47 1">-0.923879532511287</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="47 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="48 0">-1.83690953073357E-16</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="48 1">-1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="48 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="49 0">0.38268343236509</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="49 1">-0.923879532511287</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="49 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="50 0">0.707106781186547</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="50 1">-0.707106781186548</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="50 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="51 0">0.923879532511287</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="51 1">-0.38268343236509</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="51 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="52 0">1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="52 1">-2.44921270764475E-16</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="52 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="53 0">1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="53 1">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="53 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="54 0">0.923879532511287</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="54 1">0.38268343236509</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="54 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="55 0">0.707106781186548</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="55 1">0.707106781186547</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="55 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="56 0">0.38268343236509</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="56 1">0.923879532511287</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="56 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="57 0">6.12303176911189E-17</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="57 1">1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="57 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="58 0">-0.38268343236509</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="58 1">0.923879532511287</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="58 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="59 0">-0.707106781186547</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="59 1">0.707106781186548</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="59 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="60 0">-0.923879532511287</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="60 1">0.38268343236509</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="60 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="61 0">-1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="61 1">1.22460635382238E-16</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="61 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="62 0">-0.923879532511287</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="62 1">-0.38268343236509</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="62 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="63 0">-0.707106781186548</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="63 1">-0.707106781186547</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="63 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="64 0">-0.38268343236509</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="64 1">-0.923879532511287</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="64 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="65 0">-1.83690953073357E-16</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="65 1">-1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="65 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="66 0">0.38268343236509</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="66 1">-0.923879532511287</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="66 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="67 0">0.707106781186547</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="67 1">-0.707106781186548</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="67 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="68 0">0.923879532511287</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="68 1">-0.38268343236509</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="68 2">0</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="69 0">1</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="69 1">-2.44921270764475E-16</IfcParameterValue-wrapper>
+                        <IfcParameterValue-wrapper pos="69 2">0</IfcParameterValue-wrapper>
+                      </Normals>
+                    </IfcTriangulatedFaceSet>
+                  </Items>
+                </MappedRepresentation>
+              </IfcRepresentationMap>
+            </RepresentationMaps>
+          </IfcBoilerType>
+        </RelatedDefinitions>
+      </IfcRelDeclares>
+    </Declares>
+  </IfcProject>
+</ifcXML>

@@ -1,0 +1,146 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ifcXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ifc="http://www.buildingsmart-tech.org/ifcXML/IFC4/Add2" xsi:schemaLocation="http://www.buildingsmart-tech.org/ifcXML/IFC4/Add2 https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD2/XML/IFC4_ADD2.xsd" id="uos_1" express="https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD2/EXPRESS/IFC4_ADD2.exp" xmlns="http://www.buildingsmart-tech.org/ifcXML/IFC4/Add2">
+  <header>
+    <name>D:\Uni\CODE\Validator\ifc_files\wall-standard-case.ifc</name>
+    <time_stamp>2016-02-04T08:47:55</time_stamp>
+    <author>Jon</author>
+    <organization>Unknown</organization>
+    <preprocessor_version>GeomGymIFC by Geometry Gym Pty Ltd</preprocessor_version>
+    <originating_system>Unknown Application</originating_system>
+    <authorization>None</authorization>
+    <documentation>ViewDefinition [DesignTransferView_V1]</documentation>
+  </header>
+  <IfcProject id="i100" GlobalId="0$WU4A9R19$vKWO$AdOnKA" Name="IfcProject">
+    <OwnerHistory id="i56" xsi:type="IfcOwnerHistory" ChangeAction="added" LastModifiedDate="1454575675" CreationDate="1454575675">
+      <OwningUser id="i51" xsi:type="IfcPersonAndOrganization">
+        <ThePerson id="i52" xsi:type="IfcPerson" Identification="Jon" FamilyName="Jon" MiddleNames="" PrefixTitles="" SuffixTitles="" />
+        <TheOrganization id="i53" xsi:type="IfcOrganization" Name="Geometry Gym Pty Ltd" />
+      </OwningUser>
+      <OwningApplication id="i54" xsi:type="IfcApplication" Version="0.0.1.0" ApplicationFullName="ggRhinoIFC - Geometry Gym Plug-in for Rhino3d" ApplicationIdentifier="ggRhinoIFC">
+        <ApplicationDeveloper id="i55" xsi:type="IfcOrganization" Name="Geometry Gym Pty Ltd" />
+      </OwningApplication>
+    </OwnerHistory>
+    <IsDecomposedBy>
+      <IfcRelAggregates id="i105" pos="0" GlobalId="091a6ewbvCMQ2Vyiqspa7a" Name="Project Container" Description="Project Container for Buildings">
+        <OwnerHistory ref="i56" xsi:type="IfcOwnerHistory" xsi:nil="true" />
+        <RelatedObjects>
+          <IfcBuilding id="i50" pos="0" GlobalId="39t4Pu3nTC4ekXYRIHJB9W" Name="IfcBuilding">
+            <OwnerHistory ref="i56" xsi:type="IfcOwnerHistory" xsi:nil="true" />
+            <ContainsElements>
+              <IfcRelContainedInSpatialStructure id="i57" pos="0" GlobalId="3Sa3dTJGn0H8TQIGiuGQd5" Name="Building" Description="Building Container for Elements">
+                <OwnerHistory ref="i56" xsi:type="IfcOwnerHistory" xsi:nil="true" />
+                <RelatedElements>
+                  <IfcWall id="i303" pos="0" GlobalId="0DWgwt6o1FOx7466fPk$jl">
+                    <OwnerHistory ref="i56" xsi:type="IfcOwnerHistory" xsi:nil="true" />
+                    <IsTypedBy id="i301" xsi:type="IfcRelDefinesByType" GlobalId="1$EkFElNT8TB_VUVG1FtMe">
+                      <OwnerHistory ref="i56" xsi:type="IfcOwnerHistory" xsi:nil="true" />
+                      <RelatingType id="i300" xsi:type="IfcWallType" GlobalId="2aG1gZj7PD2PztLOx2$IVX" Name="Double Brick - 270" PredefinedType="notdefined">
+                        <OwnerHistory ref="i56" xsi:type="IfcOwnerHistory" xsi:nil="true" />
+                      </RelatingType>
+                    </IsTypedBy>
+                    <ObjectPlacement id="i306" xsi:type="IfcLocalPlacement">
+                      <RelativePlacement>
+                        <IfcAxis2Placement3D id="i307">
+                          <Location id="i2" xsi:type="IfcCartesianPoint" Coordinates="0 0 0" />
+                        </IfcAxis2Placement3D>
+                      </RelativePlacement>
+                    </ObjectPlacement>
+                    <Representation id="i318" xsi:type="IfcProductDefinitionShape">
+                      <Representations>
+                        <IfcShapeRepresentation id="i311" pos="0" RepresentationIdentifier="Axis" RepresentationType="Curve2D">
+                          <ContextOfItems id="i5" xsi:type="IfcGeometricRepresentationSubContext" ContextIdentifier="Body" ContextType="Model" TargetView="model_view" />
+                          <Items>
+                            <IfcPolyline id="i310" pos="0">
+                              <Points>
+                                <IfcCartesianPoint id="i309" pos="0" Coordinates="0 0" />
+                                <IfcCartesianPoint id="i308" pos="1" Coordinates="5000 0" />
+                              </Points>
+                            </IfcPolyline>
+                          </Items>
+                        </IfcShapeRepresentation>
+                        <IfcShapeRepresentation id="i317" pos="1" RepresentationIdentifier="Body" RepresentationType="SweptSolid">
+                          <ContextOfItems ref="i5" xsi:type="IfcGeometricRepresentationSubContext" xsi:nil="true" />
+                          <Items>
+                            <IfcExtrudedAreaSolid id="i316" pos="0" Depth="2000">
+                              <SweptArea id="i312" xsi:type="IfcRectangleProfileDef" ProfileType="area" ProfileName="Wall Perim" XDim="5000" YDim="270">
+                                <Position id="i313" xsi:type="IfcAxis2Placement2D">
+                                  <Location id="i314" xsi:type="IfcCartesianPoint" Coordinates="2500 135" />
+                                </Position>
+                              </SweptArea>
+                              <ExtrudedDirection id="i315" xsi:type="IfcDirection" DirectionRatios="0 0 1" />
+                            </IfcExtrudedAreaSolid>
+                          </Items>
+                        </IfcShapeRepresentation>
+                      </Representations>
+                    </Representation>
+                  </IfcWall>
+                </RelatedElements>
+              </IfcRelContainedInSpatialStructure>
+            </ContainsElements>
+          </IfcBuilding>
+        </RelatedObjects>
+      </IfcRelAggregates>
+    </IsDecomposedBy>
+    <RepresentationContexts>
+      <IfcGeometricRepresentationContext id="i1" pos="0" ContextType="Model" CoordinateSpaceDimension="3" Precision="0.0001">
+        <WorldCoordinateSystem>
+          <IfcAxis2Placement3D id="i3">
+            <Location ref="i2" xsi:type="IfcCartesianPoint" xsi:nil="true" />
+          </IfcAxis2Placement3D>
+        </WorldCoordinateSystem>
+        <HasSubContexts>
+          <IfcGeometricRepresentationSubContext id="i4" pos="0" ContextIdentifier="Axis" ContextType="Model" TargetView="model_view" />
+          <IfcGeometricRepresentationSubContext ref="i5" pos="1" xsi:nil="true" />
+        </HasSubContexts>
+      </IfcGeometricRepresentationContext>
+    </RepresentationContexts>
+    <UnitsInContext id="i101" xsi:type="IfcUnitAssignment">
+      <Units>
+        <IfcSIUnit id="i102" pos="0" UnitType="lengthunit" Prefix="milli" Name="metre" />
+        <IfcSIUnit id="i103" pos="1" UnitType="planeangleunit" Name="radian" />
+        <IfcSIUnit id="i104" pos="2" UnitType="timeunit" Name="second" />
+      </Units>
+    </UnitsInContext>
+    <Declares>
+      <IfcRelDeclares id="i302" pos="0" GlobalId="1lEof85zvB$O57GEVffll1">
+        <OwnerHistory ref="i56" xsi:type="IfcOwnerHistory" xsi:nil="true" />
+        <RelatedDefinitions>
+          <IfcWallType ref="i300" pos="0" xsi:nil="true" />
+        </RelatedDefinitions>
+      </IfcRelDeclares>
+    </Declares>
+  </IfcProject>
+  <IfcRelAssociatesMaterial id="i211" GlobalId="36U74BIPDD89cYkx9bkV$Y" Name="MatAssoc" Description="Material Associates">
+    <OwnerHistory ref="i56" xsi:type="IfcOwnerHistory" xsi:nil="true" />
+    <RelatedObjects>
+      <IfcWallType ref="i300" pos="0" xsi:nil="true" />
+    </RelatedObjects>
+    <RelatingMaterial>
+      <IfcMaterialLayerSet id="i210" LayerSetName="Double Brick - 270">
+        <MaterialLayers>
+          <IfcMaterialLayer id="i204" pos="0" LayerThickness="110" Name="Finish">
+            <Material id="i200" xsi:type="IfcMaterial" Name="Masonry - Brick - Brown" />
+          </IfcMaterialLayer>
+          <IfcMaterialLayer id="i206" pos="1" LayerThickness="50" IsVentilated="true" Name="Air Infiltration Barrier" />
+          <IfcMaterialLayer id="i208" pos="2" LayerThickness="110" Name="Core">
+            <Material id="i202" xsi:type="IfcMaterial" Name="Masonry" />
+          </IfcMaterialLayer>
+        </MaterialLayers>
+      </IfcMaterialLayerSet>
+    </RelatingMaterial>
+  </IfcRelAssociatesMaterial>
+  <IfcRelAssociatesMaterial id="i305" GlobalId="1BYoVhjtLADPUZYzipA826" Name="MatAssoc" Description="Material Associates">
+    <OwnerHistory ref="i56" xsi:type="IfcOwnerHistory" xsi:nil="true" />
+    <RelatedObjects>
+      <IfcWall ref="i303" pos="0" xsi:nil="true" />
+    </RelatedObjects>
+    <RelatingMaterial>
+      <IfcMaterialLayerSetUsage id="i304" LayerSetDirection="axis2" DirectionSense="positive" OffsetFromReferenceLine="0">
+        <ForLayerSet ref="i210" xsi:type="IfcMaterialLayerSet" xsi:nil="true" />
+      </IfcMaterialLayerSetUsage>
+    </RelatingMaterial>
+  </IfcRelAssociatesMaterial>
+  <IfcAxis2Placement3D id="i58">
+    <Location ref="i2" xsi:type="IfcCartesianPoint" xsi:nil="true" />
+  </IfcAxis2Placement3D>
+</ifcXML>

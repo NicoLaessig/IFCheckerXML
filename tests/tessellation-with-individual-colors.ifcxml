@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ifcXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ifc="http://www.buildingsmart-tech.org/ifcXML/IFC4/Add2" xsi:schemaLocation="http://www.buildingsmart-tech.org/ifcXML/IFC4/Add2 https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD2/XML/IFC4_ADD2.xsd" id="uos_1" express="https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD2/EXPRESS/IFC4_ADD2.exp" xmlns="http://www.buildingsmart-tech.org/ifcXML/IFC4/Add2">
+  <header>
+    <name>D:\Uni\CODE\Validator\ifc_files\tessellation-with-individual-colors.ifc</name>
+    <time_stamp>2016-02-04T08:47:54</time_stamp>
+    <author>Jon</author>
+    <organization>Unknown</organization>
+    <preprocessor_version>GeomGymIFC by Geometry Gym Pty Ltd</preprocessor_version>
+    <originating_system>Unknown Application</originating_system>
+    <authorization>None</authorization>
+    <documentation>ViewDefinition [DesignTransferView_V1]</documentation>
+  </header>
+  <IfcProject id="i100" GlobalId="0$WU4A9R19$vKWO$AdOnKA" Name="IfcProject">
+    <OwnerHistory id="i56" xsi:type="IfcOwnerHistory" ChangeAction="added" LastModifiedDate="1454575674" CreationDate="1454575674">
+      <OwningUser id="i51" xsi:type="IfcPersonAndOrganization">
+        <ThePerson id="i52" xsi:type="IfcPerson" Identification="Jon" FamilyName="Jon" MiddleNames="" PrefixTitles="" SuffixTitles="" />
+        <TheOrganization id="i53" xsi:type="IfcOrganization" Name="Geometry Gym Pty Ltd" />
+      </OwningUser>
+      <OwningApplication id="i54" xsi:type="IfcApplication" Version="0.0.1.0" ApplicationFullName="ggRhinoIFC - Geometry Gym Plug-in for Rhino3d" ApplicationIdentifier="ggRhinoIFC">
+        <ApplicationDeveloper id="i55" xsi:type="IfcOrganization" Name="Geometry Gym Pty Ltd" />
+      </OwningApplication>
+    </OwnerHistory>
+    <IsDecomposedBy>
+      <IfcRelAggregates id="i105" pos="0" GlobalId="091a6ewbvCMQ2Vyiqspa7a" Name="Project Container" Description="Project Container for Buildings">
+        <OwnerHistory ref="i56" xsi:type="IfcOwnerHistory" xsi:nil="true" />
+        <RelatedObjects>
+          <IfcBuilding id="i50" pos="0" GlobalId="39t4Pu3nTC4ekXYRIHJB9W" Name="IfcBuilding">
+            <OwnerHistory ref="i56" xsi:type="IfcOwnerHistory" xsi:nil="true" />
+            <ContainsElements>
+              <IfcRelContainedInSpatialStructure id="i57" pos="0" GlobalId="3Sa3dTJGn0H8TQIGiuGQd5" Name="Building" Description="Building Container for Elements">
+                <OwnerHistory ref="i56" xsi:type="IfcOwnerHistory" xsi:nil="true" />
+                <RelatedElements>
+                  <IfcBuildingElementProxy id="i302" pos="0" GlobalId="25c34fWeL1NQux73WfnXox" Name="NOTDEFINED" PredefinedType="notdefined">
+                    <OwnerHistory ref="i56" xsi:type="IfcOwnerHistory" xsi:nil="true" />
+                    <ObjectPlacement id="i304" xsi:type="IfcLocalPlacement">
+                      <RelativePlacement>
+                        <IfcAxis2Placement3D id="i303">
+                          <Location id="i2" xsi:type="IfcCartesianPoint" Coordinates="0 0 0" />
+                        </IfcAxis2Placement3D>
+                      </RelativePlacement>
+                    </ObjectPlacement>
+                    <Representation id="i301" xsi:type="IfcProductDefinitionShape">
+                      <Representations>
+                        <IfcShapeRepresentation id="i300" pos="0" RepresentationIdentifier="Body" RepresentationType="Tessellation">
+                          <ContextOfItems id="i5" xsi:type="IfcGeometricRepresentationSubContext" ContextIdentifier="Body" ContextType="Model" TargetView="model_view" />
+                          <Items>
+                            <IfcTriangulatedFaceSet id="i201" pos="0" Closed="true" CoordIndex="1 6 5 1 2 6 6 2 7 7 2 3 7 8 6 6 8 5 5 8 1 1 8 4 4 2 1 2 4 3 4 8 7 7 3 4" PnIndex="">
+                              <Coordinates id="i200" xsi:type="IfcCartesianPointList3D" CoordList="0 0 0 1000 0 0 1000 1000 0 0 1000 0 0 0 2000 1000 0 2000 1000 1000 2000 0 1000 2000" />
+                              <HasColours id="i203" xsi:type="IfcIndexedColourMap" ColourIndex="1 1 2 2 3 3 1 1 1 1 1 1">
+                                <Colours id="i202" xsi:type="IfcColourRgbList" ColourList="1 0 0 0 0.501960784313725 0 1 1 0" />
+                              </HasColours>
+                            </IfcTriangulatedFaceSet>
+                          </Items>
+                        </IfcShapeRepresentation>
+                      </Representations>
+                    </Representation>
+                  </IfcBuildingElementProxy>
+                </RelatedElements>
+              </IfcRelContainedInSpatialStructure>
+            </ContainsElements>
+          </IfcBuilding>
+        </RelatedObjects>
+      </IfcRelAggregates>
+    </IsDecomposedBy>
+    <RepresentationContexts>
+      <IfcGeometricRepresentationContext id="i1" pos="0" ContextType="Model" CoordinateSpaceDimension="3" Precision="0.0001">
+        <WorldCoordinateSystem>
+          <IfcAxis2Placement3D id="i3">
+            <Location ref="i2" xsi:type="IfcCartesianPoint" xsi:nil="true" />
+          </IfcAxis2Placement3D>
+        </WorldCoordinateSystem>
+        <HasSubContexts>
+          <IfcGeometricRepresentationSubContext id="i4" pos="0" ContextIdentifier="Axis" ContextType="Model" TargetView="model_view" />
+          <IfcGeometricRepresentationSubContext ref="i5" pos="1" xsi:nil="true" />
+        </HasSubContexts>
+      </IfcGeometricRepresentationContext>
+    </RepresentationContexts>
+    <UnitsInContext id="i101" xsi:type="IfcUnitAssignment">
+      <Units>
+        <IfcSIUnit id="i102" pos="0" UnitType="lengthunit" Prefix="milli" Name="metre" />
+        <IfcSIUnit id="i103" pos="1" UnitType="planeangleunit" Name="radian" />
+        <IfcSIUnit id="i104" pos="2" UnitType="timeunit" Name="second" />
+      </Units>
+    </UnitsInContext>
+  </IfcProject>
+  <IfcAxis2Placement3D id="i58">
+    <Location ref="i2" xsi:type="IfcCartesianPoint" xsi:nil="true" />
+  </IfcAxis2Placement3D>
+</ifcXML>

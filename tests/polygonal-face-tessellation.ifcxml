@@ -1,0 +1,128 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ifcXML xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:ifc="http://www.buildingsmart-tech.org/ifcXML/IFC4/Add2" xsi:schemaLocation="http://www.buildingsmart-tech.org/ifcXML/IFC4/Add2 https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD2/XML/IFC4_ADD2.xsd" id="uos_1" express="https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD2/EXPRESS/IFC4_ADD2.exp" xmlns="http://www.buildingsmart-tech.org/ifcXML/IFC4/Add2">
+  <header>
+    <name>D:\Uni\CODE\Validator\ifc_files\polygonal-face-tessellation.ifc</name>
+    <time_stamp>2016-05-26T17:38:29</time_stamp>
+    <author>jonm</author>
+    <organization>Geometry Gym</organization>
+    <preprocessor_version>GeomGymIFC by Geometry Gym Pty Ltd</preprocessor_version>
+    <originating_system>ggRhinoIFC - Grasshopper3d Plug-in by Geometry Gym Pty Ltd</originating_system>
+    <authorization>None</authorization>
+    <documentation>ViewDefinition [notYetAssigned]</documentation>
+  </header>
+  <IfcProject id="i3061" GlobalId="37E0t9DhPDuPXM8sgxexaw" Name="Grasshopper Project">
+    <OwnerHistory id="i3054" xsi:type="IfcOwnerHistory" ChangeAction="added" LastModifiedDate="1464284014" CreationDate="1464284014">
+      <OwningUser id="i3049" xsi:type="IfcPersonAndOrganization">
+        <ThePerson id="i3050" xsi:type="IfcPerson" Identification="jonm" FamilyName="jonm" MiddleNames="" PrefixTitles="" SuffixTitles="" />
+        <TheOrganization id="i3051" xsi:type="IfcOrganization" Name="Geometry Gym" />
+      </OwningUser>
+      <OwningApplication id="i3052" xsi:type="IfcApplication" Version="1.4.14.0" ApplicationFullName="ggRhinoIFC - Grasshopper3d Plug-in by Geometry Gym Pty Ltd" ApplicationIdentifier="ggRhinoIFC">
+        <ApplicationDeveloper id="i3053" xsi:type="IfcOrganization" Name="Geometry Gym Pty Ltd" />
+      </OwningApplication>
+    </OwnerHistory>
+    <IsDecomposedBy>
+      <IfcRelAggregates id="i3066" pos="0" GlobalId="1jnXpsMarCZQ$Xxt61uMb4" Name="Project Container" Description="Project Container for Buildings">
+        <OwnerHistory ref="i3054" xsi:type="IfcOwnerHistory" xsi:nil="true" />
+        <RelatedObjects>
+          <IfcBuilding id="i3048" pos="0" GlobalId="2tMIBeIVfClPSrbOosOJDI" Name="Grasshopper Building" Description="GH Building" LongName="GH Building" ElevationOfRefHeight="0" ElevationOfTerrain="0">
+            <OwnerHistory ref="i3054" xsi:type="IfcOwnerHistory" xsi:nil="true" />
+            <ObjectPlacement id="i3047" xsi:type="IfcLocalPlacement">
+              <RelativePlacement>
+                <IfcAxis2Placement3D id="i3">
+                  <Location id="i3058" xsi:type="IfcCartesianPoint" Coordinates="0 0 0" />
+                  <Axis id="i3059" xsi:type="IfcDirection" DirectionRatios="0 0 1" />
+                  <RefDirection id="i3060" xsi:type="IfcDirection" DirectionRatios="1 0 0" />
+                </IfcAxis2Placement3D>
+              </RelativePlacement>
+            </ObjectPlacement>
+            <ContainsElements>
+              <IfcRelContainedInSpatialStructure id="i3055" pos="0" GlobalId="3_FDRX0_zCNwiRAZP_mk8l" Name="Building" Description="Building Container for Elements">
+                <OwnerHistory ref="i3054" xsi:type="IfcOwnerHistory" xsi:nil="true" />
+                <RelatedElements>
+                  <IfcBuildingElementProxy id="i30" pos="0" GlobalId="1csV6umSb0px7vDxobGEN_" Name="NOTDEFINED" PredefinedType="notdefined">
+                    <OwnerHistory ref="i3054" xsi:type="IfcOwnerHistory" xsi:nil="true" />
+                    <ObjectPlacement id="i32" xsi:type="IfcLocalPlacement">
+                      <PlacementRelTo ref="i3047" xsi:type="IfcLocalPlacement" xsi:nil="true" />
+                      <RelativePlacement>
+                        <IfcAxis2Placement3D id="i31">
+                          <Location id="i2" xsi:type="IfcCartesianPoint" Coordinates="0 0 0" />
+                        </IfcAxis2Placement3D>
+                      </RelativePlacement>
+                    </ObjectPlacement>
+                    <Representation id="i29" xsi:type="IfcProductDefinitionShape">
+                      <Representations>
+                        <IfcShapeRepresentation id="i28" pos="0" RepresentationIdentifier="Body" RepresentationType="Tessellation">
+                          <ContextOfItems id="i5" xsi:type="IfcGeometricRepresentationSubContext" ContextIdentifier="Body" ContextType="Model" TargetScale="0" TargetView="model_view" />
+                          <Items>
+                            <IfcPolygonalFaceSet id="i27" pos="0" Closed="true" PnIndex="">
+                              <Coordinates id="i15" xsi:type="IfcCartesianPointList3D" CoordList="-10000 -10000 -10000 10000 -10000 -10000 10000 10000 -10000 -10000 10000 -10000 -10000 -10000 10000 10000 -10000 10000 10000 10000 10000 -10000 10000 10000 -5000 -5000 -5000 5000 -5000 -5000 5000 5000 -5000 -5000 5000 -5000 5000 -5000 10000 -5000 -5000 10000 5000 5000 10000 -5000 5000 10000" />
+                              <Faces>
+                                <IfcIndexedPolygonalFace id="i16" pos="0" CoordIndex="2 6 5 1" />
+                                <IfcIndexedPolygonalFace id="i17" pos="1" CoordIndex="3 7 6 2" />
+                                <IfcIndexedPolygonalFace id="i18" pos="2" CoordIndex="8 7 3" />
+                                <IfcIndexedPolygonalFace id="i19" pos="3" CoordIndex="1 5 8 4" />
+                                <IfcIndexedPolygonalFace id="i20" pos="4" CoordIndex="4 3 2 1" />
+                                <IfcIndexedPolygonalFaceWithVoids id="i21" pos="5" CoordIndex="6 7 8 5">
+                                  <InnerCoordIndices>
+                                    <IfcPositiveInteger-wrapper pos="0 0">14</IfcPositiveInteger-wrapper>
+                                    <IfcPositiveInteger-wrapper pos="0 1">16</IfcPositiveInteger-wrapper>
+                                    <IfcPositiveInteger-wrapper pos="0 2">15</IfcPositiveInteger-wrapper>
+                                    <IfcPositiveInteger-wrapper pos="0 3">13</IfcPositiveInteger-wrapper>
+                                  </InnerCoordIndices>
+                                </IfcIndexedPolygonalFaceWithVoids>
+                                <IfcIndexedPolygonalFace id="i22" pos="6" CoordIndex="13 10 9 14" />
+                                <IfcIndexedPolygonalFace id="i23" pos="7" CoordIndex="15 11 10 13" />
+                                <IfcIndexedPolygonalFace id="i24" pos="8" CoordIndex="16 12 11 15" />
+                                <IfcIndexedPolygonalFace id="i25" pos="9" CoordIndex="14 9 12 16" />
+                                <IfcIndexedPolygonalFace id="i26" pos="10" CoordIndex="9 10 11 12" />
+                              </Faces>
+                            </IfcPolygonalFaceSet>
+                          </Items>
+                        </IfcShapeRepresentation>
+                      </Representations>
+                    </Representation>
+                  </IfcBuildingElementProxy>
+                </RelatedElements>
+              </IfcRelContainedInSpatialStructure>
+            </ContainsElements>
+          </IfcBuilding>
+        </RelatedObjects>
+      </IfcRelAggregates>
+    </IsDecomposedBy>
+    <RepresentationContexts>
+      <IfcGeometricRepresentationContext id="i1" pos="0" ContextType="Model" CoordinateSpaceDimension="3" Precision="0.01">
+        <WorldCoordinateSystem>
+          <IfcAxis2Placement3D ref="i3" xsi:nil="true" />
+        </WorldCoordinateSystem>
+        <HasSubContexts>
+          <IfcGeometricRepresentationSubContext id="i4" pos="0" ContextIdentifier="" ContextType="Model" TargetScale="0" TargetView="model_view" />
+          <IfcGeometricRepresentationSubContext ref="i5" pos="1" xsi:nil="true" />
+        </HasSubContexts>
+      </IfcGeometricRepresentationContext>
+    </RepresentationContexts>
+    <UnitsInContext id="i3062" xsi:type="IfcUnitAssignment">
+      <Units>
+        <IfcSIUnit id="i3063" pos="0" UnitType="lengthunit" Prefix="milli" Name="" />
+        <IfcSIUnit id="i13" pos="1" UnitType="areaunit" Name="square_metre" />
+        <IfcSIUnit id="i14" pos="2" UnitType="volumeunit" Name="cubic_metre" />
+        <IfcSIUnit id="i3064" pos="3" UnitType="planeangleunit" />
+        <IfcSIUnit id="i3065" pos="4" UnitType="timeunit" Name="second" />
+      </Units>
+    </UnitsInContext>
+  </IfcProject>
+  <IfcCartesianPoint id="i6" Coordinates="0 0 0" />
+  <IfcDirection id="i7" DirectionRatios="1 0 FALSE" />
+  <IfcDirection id="i8" DirectionRatios="0 1 0" />
+  <IfcDirection id="i9" DirectionRatios="0 0 1" />
+  <IfcCartesianPoint id="i10" Coordinates="0 0" />
+  <IfcAxis2Placement2D id="i11">
+    <Location ref="i10" xsi:type="IfcCartesianPoint" xsi:nil="true" />
+  </IfcAxis2Placement2D>
+  <IfcSIUnit id="i12" UnitType="lengthunit" Name="metre" />
+  <IfcAxis2Placement3D id="i3056">
+    <Location ref="i2" xsi:type="IfcCartesianPoint" xsi:nil="true" />
+  </IfcAxis2Placement3D>
+  <IfcAxis2Placement3D id="i3070">
+    <Location ref="i2" xsi:type="IfcCartesianPoint" xsi:nil="true" />
+  </IfcAxis2Placement3D>
+</ifcXML>
