@@ -4808,7 +4808,7 @@ class Rules:
         elif ifcname == "IfcZone":
             groups = entity.find("IsGroupedBy")
             if groups is not None:
-                if group in groups:
+                for group in groups:
                     if "ref" in group.attrib:
                         group = self.ref_check(group)
                     allowed = ["IfcZone", "IfcSpace", "IfcSpatialZone"]
