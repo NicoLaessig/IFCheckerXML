@@ -2,7 +2,9 @@
 
 With the IFCheckerXML .ifcxml files can be validated against general rules, as well as formal propositions, according to the IFC documentation.
 The corresponding warnings and/or errors (if found) will be written as a .csv file containing multiple information about the specific error/warning.
-The rules/formal propositions checked can be easily adapted, as explained below.
+The rules/formal propositions checked can be easily adapted, as explained below in point 4.
+This code is written to work with files of the newest IFC ISO standard (IFC4 ADD2 TC1; ISO 16739-1:2018). It also may work on some other versions, but it has not been tested.
+
 
 ## 1. Source Files Information
 
@@ -24,7 +26,15 @@ The following corresponds to the files within the '/src/ifcxml-checker' folders.
 - 'obj/': Contains necessary entities and types information through a dictionary structure, saved as pickle files (created through the create_dictionary.py file).
 
 
-## 2. What exactly is checked?
+## 2. Other Files Information
+
+- 'tests/': 
+  - Example .ifcxml files, with some of them being slightly adapted with added errors. Source of the original files can be found on the official IFC Documentation page: https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD2_TC1/HTML/annex/annex-e/
+  - Corresponding results are saved in 'test/results/'. If no corresponding result file exists, then no error has been found.
+- requirements.txt: Contains all python modules needed
+
+
+## 3. What exactly is checked?
 
 - Uniqueness of all IDs
 - If referenced entities exist and if they have the same matching type
@@ -34,7 +44,7 @@ The following corresponds to the files within the '/src/ifcxml-checker' folders.
 - Formal propositions
 
 
-## 3. How to add/remove rules?
+## 4. How to add/remove rules?
 
 - To add a custom rule: 
   - 1. Add a function named after the rule to the 'formal_propositions_ifcxml.py' file with the structure "def {rule_name}(self, entity, ifcname, called_entity=None)
@@ -46,9 +56,8 @@ The following corresponds to the files within the '/src/ifcxml-checker' folders.
 - All rules defined in a supertype of an entity are automatically applied as well
 
 
-## 4. Other Files Information
+## 5. Additional
 
-- 'tests/': 
-  - Example .ifcxml files, with some of them being slightly adapted with added errors. Source of the original files can be found on the official IFC Documentation page: https://standards.buildingsmart.org/IFC/RELEASE/IFC4/ADD2_TC1/HTML/annex/annex-e/
-  - Corresponding results are saved in 'test/results/'. If no corresponding result file exists, then no error has been found.
-- requirements.txt: Contains all python modules needed
+- Please give feedback, if some unexpected code exceptions happen
+- Code exception during formal proposition/rule checks can appear, when some of the data is not according to the rules. In this case there should be another warning/error in the outputfile that indicates the reason for this exception. If the other errors/warnings are lifted, then there should not be another code exception during the formal propositions/rule checks anymore.
+This is due to the implementation of the formal propositions, which expect an input according to the documentation.
